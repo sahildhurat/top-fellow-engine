@@ -94,7 +94,7 @@ export function TryEngine({ examples, promptMeta }: TryEngineProps) {
       if (!res.ok) {
         setErrorMsg(
           data.error ||
-            "Analysis could not be completed. Live engine calls may be disabled or rate-limited; please try a cached example below."
+          "Analysis could not be completed. Live engine calls may be disabled or rate-limited; please try a cached example below."
         );
         setIsLoading(false);
         return;
@@ -258,17 +258,15 @@ export function TryEngine({ examples, promptMeta }: TryEngineProps) {
             <button
               key={ex.id}
               onClick={() => handleSelectExample(ex)}
-              className={`text-left rounded-lg border p-3 text-xs transition space-y-1.5 ${
-                selectedExampleId === ex.id
+              className={`text-left rounded-lg border p-3 text-xs transition space-y-1.5 ${selectedExampleId === ex.id
                   ? "border-primary bg-primary/5 text-foreground ring-1 ring-primary/30"
                   : "border-border bg-card text-muted-foreground hover:border-border/80 hover:text-foreground"
-              }`}
+                }`}
             >
               <div className="font-medium text-foreground flex items-center justify-between">
                 <span>{ex.title}</span>
-                <span className={`text-[10px] px-1.5 py-0.2 rounded font-mono ${
-                  ex.gate?.rel === "r" ? "bg-emerald-500/10 text-emerald-600 dark:text-emerald-400" : "bg-muted text-muted-foreground"
-                }`}>
+                <span className={`text-[10px] px-1.5 py-0.2 rounded font-mono ${ex.gate?.rel === "r" ? "bg-emerald-500/10 text-emerald-600 dark:text-emerald-400" : "bg-muted text-muted-foreground"
+                  }`}>
                   {ex.gate?.rel === "r" ? "SIP" : "Non-SIP"}
                 </span>
               </div>
@@ -290,15 +288,15 @@ export function TryEngine({ examples, promptMeta }: TryEngineProps) {
               </div>
               <div className="flex items-center gap-2 mt-1">
                 <span
-                  className={`inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-bold ${
-                    isGatePositive
+                  className={`inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-bold ${isGatePositive
                       ? "bg-emerald-100 text-emerald-800 dark:bg-emerald-950/60 dark:text-emerald-300"
                       : "bg-muted text-muted-foreground"
-                  }`}
+                    }`}
                 >
                   {isGatePositive ? "Gate Positive (SIP Item)" : "Gate Negative (Not personal SIP)"}
                 </span>
                 <span className="text-xs text-muted-foreground">
+                  rel = <strong>{result.gate?.rel}</strong> · type = <strong>{result.gate?.type}</strong> · first_time = <strong>{result.gate?.ft}</strong>
                   About SIPs: <strong>{result.gate?.rel === "r" ? "yes" : result.gate?.rel === "a" ? "ambiguous" : "no"}</strong> · <strong>{result.gate?.type === "exp" ? "Own experience" : result.gate?.type === "q" ? "Question" : result.gate?.type === "adv" ? "Advice/news" : "Other"}</strong> · <strong>{result.gate?.ft === "s" ? "First-time: stated" : result.gate?.ft === "l" ? "First-time: likely" : "First-time: not stated"}</strong>
                 </span>
               </div>
@@ -336,11 +334,10 @@ export function TryEngine({ examples, promptMeta }: TryEngineProps) {
                   return (
                     <div
                       key={field}
-                      className={`rounded-lg border p-3 space-y-1 ${
-                        isUnknown
+                      className={`rounded-lg border p-3 space-y-1 ${isUnknown
                           ? "border-border/50 bg-muted/20 text-muted-foreground"
                           : "border-border bg-background/60 text-foreground"
-                      }`}
+                        }`}
                     >
                       <div className="font-mono text-[10px] uppercase font-bold tracking-wider text-muted-foreground">
                         {field.replace(/_/g, " ")}

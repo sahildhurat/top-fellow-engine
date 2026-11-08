@@ -147,11 +147,10 @@ export default function OpportunitiesPage() {
                               {s.diff_ci95 ? `[${(s.diff_ci95[0] * 100).toFixed(1)}%, ${(s.diff_ci95[1] * 100).toFixed(1)}%]` : "—"}
                             </td>
                             <td className="py-2.5 px-3 text-center">
-                              <span className={`inline-block px-1.5 py-0.5 rounded text-[10px] font-bold ${
-                                mark === "✓" ? "bg-emerald-100 text-emerald-800 dark:bg-emerald-950/60 dark:text-emerald-300" :
-                                mark === "✗" ? "bg-rose-100 text-rose-800 dark:bg-rose-950/60 dark:text-rose-300" :
-                                "bg-muted text-muted-foreground"
-                              }`}>
+                              <span className={`inline-block px-1.5 py-0.5 rounded text-[10px] font-bold ${mark === "✓" ? "bg-emerald-100 text-emerald-800 dark:bg-emerald-950/60 dark:text-emerald-300" :
+                                  mark === "✗" ? "bg-rose-100 text-rose-800 dark:bg-rose-950/60 dark:text-rose-300" :
+                                    "bg-muted text-muted-foreground"
+                                }`}>
                                 {mark}
                               </span>
                             </td>
@@ -165,12 +164,12 @@ export default function OpportunitiesPage() {
 
               {/* Human Check Notes */}
               {area.human_check && area.human_check.notes && area.human_check.notes.length > 0 && (
-                <div className="rounded-lg border border-amber-500/40 bg-amber-100/60 dark:bg-amber-950/40 p-4 text-xs space-y-2">
-                  <div className="font-bold text-amber-950 dark:text-amber-100 flex items-center gap-1.5">
-                    <AlertCircle className="h-3.5 w-3.5 text-amber-700 dark:text-amber-400" />
+                <div className="rounded-lg border border-amber-500/30 bg-amber-500/5 p-4 text-xs space-y-2">
+                  <div className="font-semibold text-amber-900 dark:text-amber-200 flex items-center gap-1.5">
+                    <AlertCircle className="h-3.5 w-3.5 text-amber-600 dark:text-amber-400" />
                     Human Review Nuances & Edge Cases (from sample audit)
                   </div>
-                  <div className="space-y-1.5 text-slate-800 dark:text-slate-200">
+                  <div className="space-y-1.5 text-muted-foreground">
                     {area.human_check.notes.map((n: any, idx: number) => (
                       <div key={idx} className="flex items-start gap-2">
                         <span className="font-mono text-xs text-muted-foreground">#{n[0]}:</span>
@@ -184,73 +183,73 @@ export default function OpportunitiesPage() {
                 </div>
               )}
 
-              {/* Example Stories */}
-              <div className="space-y-3 pt-2">
-                <div className="flex items-center justify-between">
-                  <h3 className="text-sm font-semibold tracking-wide uppercase text-muted-foreground flex items-center gap-1.5">
-                    <Quote className="h-3.5 w-3.5" />
-                    Example Verbatim Stories ({area.example_stories?.length || 0})
-                  </h3>
-                  <span className="text-xs text-muted-foreground">
-                    All quotes scrubbed & privacy-checked
-                  </span>
-                </div>
-
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5">
-                  {(area.example_stories || []).map((st: any) => (
-                    <div
-                      key={st.uid}
-                      className="rounded-lg border border-border/80 bg-background/50 p-4 space-y-3 flex flex-col justify-between text-xs hover:border-primary/40 transition"
-                    >
-                      <div className="space-y-2">
-                        <div className="flex items-center justify-between text-[11px] text-muted-foreground">
-                          <span className="font-mono bg-muted px-1.5 py-0.5 rounded text-[10px]">
-                            {st.uid}
-                          </span>
-                          <span className="capitalize font-medium">
-                            {st.source?.replace("_", " ")}
+                      {/* Example Stories */}
+                      <div className="space-y-3 pt-2">
+                        <div className="flex items-center justify-between">
+                          <h3 className="text-sm font-semibold tracking-wide uppercase text-muted-foreground flex items-center gap-1.5">
+                            <Quote className="h-3.5 w-3.5" />
+                            Example Verbatim Stories ({area.example_stories?.length || 0})
+                          </h3>
+                          <span className="text-xs text-muted-foreground">
+                            All quotes scrubbed & privacy-checked
                           </span>
                         </div>
 
-                        {st.quote ? (
-                          <p className="italic text-foreground/90 border-l-2 border-primary/50 pl-2.5 py-0.5">
-                            &ldquo;{st.quote}&rdquo;
-                          </p>
-                        ) : (
-                          <p className="text-muted-foreground italic pl-2.5 py-0.5">
-                            [No standalone quote meeting strict privacy criteria]
-                          </p>
-                        )}
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5">
+                          {(area.example_stories || []).map((st: any) => (
+                            <div
+                              key={st.uid}
+                              className="rounded-lg border border-border/80 bg-background/50 p-4 space-y-3 flex flex-col justify-between text-xs hover:border-primary/40 transition"
+                            >
+                              <div className="space-y-2">
+                                <div className="flex items-center justify-between text-[11px] text-muted-foreground">
+                                  <span className="font-mono bg-muted px-1.5 py-0.5 rounded text-[10px]">
+                                    {st.uid}
+                                  </span>
+                                  <span className="capitalize font-medium">
+                                    {st.source?.replace("_", " ")}
+                                  </span>
+                                </div>
 
-                        {st.unmet_need?.v && (
-                          <div className="text-muted-foreground text-[11px] bg-muted/40 p-2 rounded">
-                            <span className="font-semibold text-foreground/80">Unmet need: </span>
-                            {st.unmet_need.v}
-                          </div>
-                        )}
-                      </div>
+                                {st.quote ? (
+                                  <p className="italic text-foreground/90 border-l-2 border-primary/50 pl-2.5 py-0.5">
+                                    &ldquo;{st.quote}&rdquo;
+                                  </p>
+                                ) : (
+                                  <p className="text-muted-foreground italic pl-2.5 py-0.5">
+                                    [No standalone quote meeting strict privacy criteria]
+                                  </p>
+                                )}
 
-                      <div className="pt-2 flex items-center justify-between border-t border-border/50 text-[11px]">
-                        <span className="text-muted-foreground capitalize">
-                          Action: <strong className="text-foreground">{st.action?.replace(/_/g, " ")}</strong>
-                        </span>
-                        <Link
-                          href={`/stories?q=${encodeURIComponent(st.uid)}`}
-                          className="text-primary hover:underline font-medium inline-flex items-center gap-1"
-                        >
-                          View record
-                          <ArrowRight className="h-3 w-3" />
-                        </Link>
+                                {st.unmet_need?.v && (
+                                  <div className="text-muted-foreground text-[11px] bg-muted/40 p-2 rounded">
+                                    <span className="font-semibold text-foreground/80">Unmet need: </span>
+                                    {st.unmet_need.v}
+                                  </div>
+                                )}
+                              </div>
+
+                              <div className="pt-2 flex items-center justify-between border-t border-border/50 text-[11px]">
+                                <span className="text-muted-foreground capitalize">
+                                  Action: <strong className="text-foreground">{st.action?.replace(/_/g, " ")}</strong>
+                                </span>
+                                <Link
+                                  href={`/stories?q=${encodeURIComponent(st.uid)}`}
+                                  className="text-primary hover:underline font-medium inline-flex items-center gap-1"
+                                >
+                                  View record
+                                  <ArrowRight className="h-3 w-3" />
+                                </Link>
+                              </div>
+                            </div>
+                          ))}
+                        </div>
                       </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </section>
-          );
+                    </section>
+                    );
         })}
-      </div>
-    </div>
-  );
+                  </div>
+                </div>
+              );
 }
 

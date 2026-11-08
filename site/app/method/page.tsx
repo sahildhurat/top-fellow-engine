@@ -74,6 +74,7 @@ export default function MethodPage() {
           <h2 className="text-xl font-bold text-foreground">2. Models & Prompts</h2>
         </div>
         <p className="text-xs text-muted-foreground">
+          Standardized batch inference settings across pipeline stages. All extraction utilizes zero-temperature deterministic parameters with Anthropic prompt caching.
           Standardized batch inference settings across pipeline stages. Extraction utilizes deterministic parameters with Anthropic prompt caching.
         </p>
 
@@ -170,11 +171,11 @@ export default function MethodPage() {
             <div className="pt-2 border-t border-border/60 space-y-1.5 text-xs">
               <div className="flex justify-between">
                 <span className="text-muted-foreground">Groq vs Sonnet (Action):</span>
-                <strong className="text-foreground">{(groqSonnet.action_primary.agreement * 100).toFixed(1)}%</strong>
+                <strong className="text-foreground">{(groqSonnet.action_primary.agreement * 100).toFixed(1)}% (κ = {groqSonnet.action_primary.cohens_kappa.toFixed(2)})</strong>
               </div>
               <div className="flex justify-between">
                 <span className="text-muted-foreground">Groq vs Sonnet (Trigger):</span>
-                <strong className="text-foreground">{(groqSonnet.trigger_primary.agreement * 100).toFixed(1)}%</strong>
+                <strong className="text-foreground">{(groqSonnet.trigger_primary.agreement * 100).toFixed(1)}% (κ = {groqSonnet.trigger_primary.cohens_kappa.toFixed(2)})</strong>
               </div>
               <div className="flex justify-between">
                 <span className="text-muted-foreground">First-Time Status:</span>
@@ -236,6 +237,7 @@ export default function MethodPage() {
               <span className="font-mono text-[10px] bg-muted px-1.5 py-0.5 rounded">G2 & G3</span>
             </div>
             <p className="text-xs text-muted-foreground leading-relaxed">
+              Human theme classification failed agreement twice (G2 κ = 0.29, G3 κ = 0.36), proving high-level subjective themes are unreliable for quantitative inference.
               Theme coding failed human agreement in two rounds (below the 0.6 bar), so themes are demoted to illustrative colour rather than quantitative evidence.
             </p>
             <div className="pt-2 border-t border-border/60 space-y-1.5 text-xs">

@@ -1,6 +1,6 @@
 # SIP Continuity Discovery Engine Dashboard
 
-An interactive discovery engine dashboard analyzing why first-time mutual fund investors keep or stop their Systematic Investment Plans (SIPs) in their first year.
+An interactive discovery engine dashboard and research project analyzing why first-time mutual fund investors keep or stop their Systematic Investment Plans (SIPs) in their first year.
 
 ## Features
 
@@ -29,3 +29,10 @@ npm install
 npm run build
 npm run start
 ```
+
+## Privacy & Safety Rules
+
+1. **No Personal Data**: Usernames are dropped at ingestion; author identity is hashed using HMAC-SHA256 with a local secret salt (`author_hash`).
+2. **PII Scrubbing**: Every text and title is passed through `common/scrub.py` before persistence.
+3. **No Raw Data Committed**: Raw, interim, and personal data directories are strictly gitignored.
+4. **Polite Client**: All network traffic respects rate pacing, exponential backoff, and robots.txt. No CAPTCHA bypassing or unauthorized site scraping.

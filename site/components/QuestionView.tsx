@@ -84,11 +84,10 @@ export function QuestionView({ questionsData }: QuestionViewProps) {
               <button
                 key={q.id}
                 onClick={() => setActiveTab(q.id)}
-                className={`px-3.5 py-2 text-xs sm:text-sm font-semibold rounded-lg whitespace-nowrap transition-colors flex items-center space-x-1.5 ${
-                  active
+                className={`px-3.5 py-2 text-xs sm:text-sm font-semibold rounded-lg whitespace-nowrap transition-colors flex items-center space-x-1.5 ${active
                     ? "bg-indigo-600 text-white shadow-sm"
                     : "bg-white border border-slate-200 text-slate-700 hover:bg-slate-50"
-                }`}
+                  }`}
               >
                 <span>Q{q.num}</span>
                 <span className="hidden md:inline font-normal opacity-90 truncate max-w-[140px]">
@@ -146,22 +145,20 @@ export function QuestionView({ questionsData }: QuestionViewProps) {
                 <button
                   type="button"
                   onClick={() => setPop("E")}
-                  className={`px-2.5 py-1 rounded-l text-xs font-medium border ${
-                    pop === "E"
+                  className={`px-2.5 py-1 rounded-l text-xs font-medium border ${pop === "E"
                       ? "bg-indigo-600 text-white border-indigo-600"
                       : "bg-white text-slate-700 border-slate-300 hover:bg-slate-50"
-                  }`}
+                    }`}
                 >
                   Early-Journey (E)
                 </button>
                 <button
                   type="button"
                   onClick={() => setPop("all")}
-                  className={`px-2.5 py-1 rounded-r text-xs font-medium border border-l-0 ${
-                    pop === "all"
+                  className={`px-2.5 py-1 rounded-r text-xs font-medium border border-l-0 ${pop === "all"
                       ? "bg-indigo-600 text-white border-indigo-600"
                       : "bg-white text-slate-700 border-slate-300 hover:bg-slate-50"
-                  }`}
+                    }`}
                 >
                   All Episodes
                 </button>
@@ -289,12 +286,12 @@ export function QuestionView({ questionsData }: QuestionViewProps) {
                   gKey === "stop"
                     ? "Stopped SIP"
                     : gKey === "consider"
-                    ? "Considering Stopping"
-                    : gKey === "cont"
-                    ? "Kept Going"
-                    : gKey === "stop_ft"
-                    ? "First-Time Stopped"
-                    : gKey;
+                      ? "Considering Stopping"
+                      : gKey === "cont"
+                        ? "Kept Going"
+                        : gKey === "stop_ft"
+                          ? "First-Time Stopped"
+                          : gKey;
 
                 return (
                   <div key={gKey} className="bg-slate-50 p-4 rounded-lg border border-slate-200 text-xs space-y-2">
@@ -362,6 +359,7 @@ export function QuestionView({ questionsData }: QuestionViewProps) {
             <div>
               <h3 className="text-base font-bold text-slate-900 flex items-center space-x-2">
                 <Route className="w-4 h-4 text-indigo-600" />
+                <span>Routes to a Stop by Source (Early-Journey Core, n=684)</span>
                 <span>Routes to a Stop by Source (Early-Journey Core, n={stop_routes["E|pooled"]?.n ?? ""})</span>
               </h3>
               <p className="text-xs text-slate-500 mt-0.5">
@@ -416,15 +414,19 @@ export function QuestionView({ questionsData }: QuestionViewProps) {
                   <tr className="bg-slate-50/80 font-sans font-semibold text-slate-600">
                     <td className="py-2 px-3">Total Stop Episodes (n)</td>
                     <td className="py-2 px-3 text-center font-mono text-slate-900 font-bold">
+                      {stop_routes["E|pooled"]?.n || 684}
                       {stop_routes["E|pooled"]?.n ?? "-"}
                     </td>
                     <td className="py-2 px-3 text-center font-mono text-slate-900 font-bold">
+                      {stop_routes["E|reddit"]?.n || 435}
                       {stop_routes["E|reddit"]?.n ?? "-"}
                     </td>
                     <td className="py-2 px-3 text-center font-mono text-slate-900 font-bold">
+                      {stop_routes["E|youtube"]?.n || 88}
                       {stop_routes["E|youtube"]?.n ?? "-"}
                     </td>
                     <td className="py-2 px-3 text-center font-mono text-slate-900 font-bold">
+                      {stop_routes["E|appreviews"]?.n || 149}
                       {stop_routes["E|appreviews"]?.n ?? "-"}
                     </td>
                   </tr>

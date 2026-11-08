@@ -17,6 +17,7 @@ WORKSPACE_ROOT = Path(__file__).resolve().parent.parent
 if str(WORKSPACE_ROOT) not in sys.path:
     sys.path.insert(0, str(WORKSPACE_ROOT))
 
+from analysis.defs import AREAS, areas, grp, is_early_journey, routes
 from analysis.defs import AREAS, areas, grp, is_early_journey, routes, v
 
 SITE_DATA_DIR = WORKSPACE_ROOT / "site" / "data"
@@ -286,14 +287,24 @@ def build_summary() -> dict:
     # Extract verbatim Answer in Five Lines from §0
     sec0_match = re.search(r"## 0\. The answer in five lines\s*\n\n(.*?)(?=\n## 1\. )", findings_md, re.DOTALL)
     sec0_text = sec0_match.group(1).strip() if sec0_match else ""
+    # Split into 5 numbered points plus caveat paragraph
     lines_raw = [p.strip() for p in sec0_text.split("\n\n") if p.strip()]
     five_lines = []
     if lines_raw:
+        # First chunk has items 1 to 5
         numbered_items = [re.sub(r"^\d+\.\s*", "", item).strip() for item in lines_raw[0].split("\n") if item.strip()]
         five_lines.extend(numbered_items)
+        # Any subsequent paragraphs (e.g. Caveat)
         for extra in lines_raw[1:]:
             five_lines.append(extra.strip())
 
+    # Get git short sha
+    git_sha = "dcea7c1"
+    try:
+        import subprocess
+        git_sha = subprocess.check_output(["git", "rev-parse", "--short", "HEAD"], text=True).strip()
+    except Exception:
+        pass
     git_sha = get_git_commit_sha()
 
     # Extract Data Funnel counts directly from part1_v1.json populations
@@ -398,6 +409,7 @@ def build_questions() -> dict:
     findings_md = (WORKSPACE_ROOT / "docs" / "analysis" / "findings_part1.md").read_text(encoding="utf-8")
     part1_v1 = json.loads((WORKSPACE_ROOT / "reports" / "analysis" / "part1_v1.json").read_text(encoding="utf-8"))
 
+    # Extract verbatim section 2 text for each question
     q_bullets = {}
     for q_num in range(1, 10):
         pat = rf"### Q{q_num}\..*?\n(.*?)(?=\n### Q\d|\n## 3\. )"
@@ -445,10 +457,12 @@ def build_questions() -> dict:
 
         for t_key in qc["tables"]:
             t_data = raw_tables.get(t_key, {})
+            # t_data structure: P -> pop -> g -> src -> {n, n_eff, rows}
             q_entry["tables"][t_key] = t_data
 
         res["questions"].append(q_entry)
 
+    return res
     return sanitize_data(res)
 
 
@@ -457,6 +471,7 @@ def build_opportunities() -> dict:
     part1_opps = json.loads((WORKSPACE_ROOT / "reports" / "analysis" / "part1_opps_v1.json").read_text(encoding="utf-8"))
     findings_chk = json.loads((WORKSPACE_ROOT / "reports" / "analysis" / "findings_check_results_v1.json").read_text(encoding="utf-8"))["results"]
 
+    # Pick 5 example stories per area with quote_ok
     # Pick 5 example stories per area with quote_ok = True
     area_examples = {a: [] for a in AREAS}
     seen_uids = set()
@@ -482,10 +497,20 @@ def build_opportunities() -> dict:
                         "unmet_need": r.get("unmet_need"),
                     })
 
+    # Format output
     # Format output with plain area names and stripped 90-char excerpts from human-check notes (§9.3.2)
     areas_list = []
+    area_chk_keys = {
+        "A_first_debit_and_autopay": "A payments",
+        "B_money_status_and_resolution": "B money status",
+        "C_returns_expectations": "C returns",
+        "D_cash_flow_flex": None,
+        "E_sip_control": None,
+    }
+
     for area_id, defn in AREAS.items():
         data = part1_opps["areas"].get(area_id, {})
+        chk_key = area_chk_keys.get(area_id)
         meta = AREA_META.get(area_id, {})
         chk_key = meta.get("chk_key")
         chk = findings_chk.get(chk_key) if chk_key else None
@@ -564,9 +589,11 @@ def build_validation() -> dict:
 def build_method() -> dict:
     """Build method.json: pipeline diagram, models, prompts, corrections log, limits, costs."""
     ledger = json.loads((WORKSPACE_ROOT / "data" / "state" / "anthropic_ledger.json").read_text(encoding="utf-8"))
+    corrections_md = (WORKSPACE_ROOT / "docs" / "corrections-log.md").read_text(encoding="utf-8") if (WORKSPACE_ROOT / "docs" / "corrections-log.md").exists() else ""
     pool_stats = json.loads((WORKSPACE_ROOT / "reports" / "pool_stratum_table_v1.10.json").read_text(encoding="utf-8"))
     clean_count = pool_stats["total_clean"]
 
+    # Pipeline diagram counts
     addon_summary = json.loads((WORKSPACE_ROOT / "reports" / "addon_pipeline_summary.json").read_text(encoding="utf-8"))
     social_count = addon_summary["clean_items_gated"]
 
@@ -783,12 +810,22 @@ def build_stories() -> list[str]:
             if g == "none" and not a:
                 continue
 
+            quote_ok = r.get("quote_ok", True)
             # quote_ok default is False if missing (§9.3.1)
             quote_ok = bool(r.get("quote_ok", False))
             q = r.get("quote") if quote_ok else None
 
+            # Spans for evidence highlight
             # Spans for evidence highlight: ONLY when quote_ok is True (§9.3.1)
             spans = {}
+            for fld in ["action_primary", "trigger_primary", "first_time_status", "in_app_confusion", "start_reason", "experience", "unmet_need"]:
+                val = r.get(fld)
+                if isinstance(val, dict) and val.get("s"):
+                    spans[fld] = {"v": val.get("v"), "s": val.get("s")}
+                elif isinstance(val, list):
+                    sp_list = [{"v": x.get("v"), "s": x.get("s")} for x in val if isinstance(x, dict) and x.get("s")]
+                    if sp_list:
+                        spans[fld] = sp_list
             if quote_ok:
                 for fld in ["action_primary", "trigger_primary", "first_time_status", "in_app_confusion", "start_reason", "experience", "unmet_need"]:
                     val = r.get(fld)
@@ -840,6 +877,7 @@ def build_stories() -> list[str]:
 
     # Chunk stories into <= 2 MB files
     SITE_DATA_DIR.mkdir(parents=True, exist_ok=True)
+    # Remove existing story chunks
     for existing in SITE_DATA_DIR.glob("stories-*.json"):
         existing.unlink()
 
@@ -873,6 +911,7 @@ def build_stories() -> list[str]:
     total_stories_size = sum(f.stat().st_size for f in chunk_files)
     print(f"[build_stories] Total stories size across {len(chunk_files)} chunks: {total_stories_size / (1024*1024):.2f} MB (limit <= 10 MB).")
 
+    # Write a story manifest listing the chunk filenames
     manifest = {
         "total_stories": len(stories),
         "chunk_count": len(chunk_files),

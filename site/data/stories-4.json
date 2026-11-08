@@ -1,5 +1,1133 @@
 [
  {
+  "uid": "reddit:post:scbgac",
+  "source": "reddit_post",
+  "scope": "general",
+  "posted": "2022-01",
+  "group": "none",
+  "action": "unknown",
+  "routes": [
+   "not_stated"
+  ],
+  "areas": [
+   "C_returns_expectations"
+  ],
+  "quote": "So do you suggest that I invest this whole amount or still do an SIP from this amount?",
+  "spans": {
+   "first_time_status": {
+    "v": "likely",
+    "s": "Hey guys.. So I am selling my old car and getting 2 lakhs lump sum"
+   },
+   "unmet_need": {
+    "v": "Decide between lump sum investment and SIP for money from selling a car",
+    "s": "do you suggest that I invest this whole amount or still do an SIP from this amount?"
+   }
+  },
+  "work": null,
+  "age": null,
+  "amount": null,
+  "first_time": true,
+  "targeted": false
+ },
+ {
+  "uid": "reddit:post:sdv4xf",
+  "source": "reddit_post",
+  "scope": "general",
+  "posted": "2022-01",
+  "group": "none",
+  "action": "unknown",
+  "routes": [
+   "returns_disappointment"
+  ],
+  "areas": [
+   "C_returns_expectations"
+  ],
+  "quote": "My average keeps on increasing everytime I buy something and whenever the market dips my whole profit is washed away.",
+  "spans": {
+   "first_time_status": {
+    "v": "likely",
+    "s": "my first month and second months average will be increased making my total profit low"
+   },
+   "in_app_confusion": [
+    {
+     "v": "returns_calculation",
+     "s": "How does SIP work if my average cost every month increases?"
+    }
+   ],
+   "experience": [
+    {
+     "v": "flat",
+     "s": "So my total profit has come down due to the high average."
+    }
+   ],
+   "unmet_need": {
+    "v": "Understand why average cost rises and how to fix reduced profit in a monthly stock buying plan",
+    "s": "How do I fix this? Is this common in SIP?"
+   }
+  },
+  "work": null,
+  "age": null,
+  "amount": null,
+  "first_time": true,
+  "targeted": false
+ },
+ {
+  "uid": "youtube:comment:UgwWdGUCVK-nWjk61fJ4AaABAg",
+  "source": "youtube",
+  "scope": "general",
+  "posted": "2025-06",
+  "group": "none",
+  "action": "unknown",
+  "routes": [
+   "not_stated"
+  ],
+  "areas": [
+   "A_first_debit_and_autopay"
+  ],
+  "quote": "আমি  SIP সাথে কিভাবে যুক্ত হবো কিভাবে টাকা ইনভেস্ট করতে পারব কোথা থেকে আমি SIP টা করতে পারব",
+  "spans": {
+   "first_time_status": {
+    "v": "likely",
+    "s": "আমি  SIP সাথে কিভাবে যুক্ত হবো কিভাবে টাকা ইনভেস্ট করতে পারব"
+   },
+   "in_app_confusion": [
+    {
+     "v": "sip_date_first_debit",
+     "s": "আমি  SIP সাথে কিভাবে যুক্ত হবো কিভাবে টাকা ইনভেস্ট করতে পারব"
+    }
+   ],
+   "unmet_need": {
+    "v": "Wants a clear explanation of how to start a SIP and invest",
+    "s": "আমি  SIP সাথে কিভাবে যুক্ত হবো কিভাবে টাকা ইনভেস্ট করতে পারব"
+   }
+  },
+  "work": null,
+  "age": null,
+  "amount": null,
+  "first_time": true,
+  "targeted": false
+ },
+ {
+  "uid": "reddit:post:1hj5rkx",
+  "source": "reddit_post",
+  "scope": "general",
+  "posted": "2024-12",
+  "group": "none",
+  "action": "unknown",
+  "routes": [
+   "app_friction",
+   "returns_disappointment"
+  ],
+  "areas": [
+   "C_returns_expectations"
+  ],
+  "quote": "Quant and icici have been constantly underperforming hence the low numbers in them.",
+  "spans": {
+   "action_primary": {
+    "v": "reduced_amount",
+    "s": "Quant and icici have been constantly underperforming hence the low numbers in them."
+   },
+   "trigger_primary": {
+    "v": "returns_disappointing",
+    "s": "Quant and icici have been constantly underperforming hence the low numbers in them."
+   },
+   "first_time_status": {
+    "v": "likely",
+    "s": "I've already started investing a few months back."
+   },
+   "experience": [
+    {
+     "v": "flat",
+     "s": "Quant and icici have been constantly underperforming hence the low numbers in them."
+    }
+   ],
+   "unmet_need": {
+    "v": "Wants to know which mutual fund SIPs to pick and amounts to allocate",
+    "s": "What do you guys check before investing in an SIP?"
+   }
+  },
+  "work": null,
+  "age": null,
+  "amount": "unknown",
+  "first_time": true,
+  "targeted": false
+ },
+ {
+  "uid": "reddit:comment:je6zjh2",
+  "source": "reddit_comment",
+  "scope": "general",
+  "posted": "2023-03",
+  "group": "none",
+  "action": "unknown",
+  "routes": [
+   "not_stated"
+  ],
+  "areas": [
+   "A_first_debit_and_autopay"
+  ],
+  "quote": "You have option to skip instalment. I have used it many times. No extra charges or side affects.",
+  "spans": {},
+  "work": null,
+  "age": null,
+  "amount": "unknown",
+  "first_time": true,
+  "targeted": false
+ },
+ {
+  "uid": "reddit:post:1np57gs",
+  "source": "reddit_post",
+  "scope": "general",
+  "posted": "2025-09",
+  "group": "cont",
+  "action": "increased_or_stepped_up",
+  "routes": [
+   "not_stated"
+  ],
+  "areas": [],
+  "quote": "I( age 32) have recently started SIPs currently investing Rs 10700 willing to increase to Rs 20000 from Nov 2025.Holding periods 12 years to create wealth. risk appetite high",
+  "spans": {
+   "first_time_status": {
+    "v": "likely",
+    "s": "I( age 32) have recently started SIPs"
+   },
+   "unmet_need": {
+    "v": "Get a suggested asset allocation for a 12-year high-risk SIP plan",
+    "s": "Please suggest asset allocation"
+   }
+  },
+  "work": null,
+  "age": 32.0,
+  "amount": 10700.0,
+  "first_time": true,
+  "targeted": false
+ },
+ {
+  "uid": "reddit:comment:n1axrvf",
+  "source": "reddit_comment",
+  "scope": "general",
+  "posted": "2025-07",
+  "group": "none",
+  "action": "unknown",
+  "routes": [
+   "not_stated"
+  ],
+  "areas": [
+   "C_returns_expectations"
+  ],
+  "quote": "iam planning to start my first SIP in Parag Parikh Flexi Cap in 2025 is it safe and will be have profit",
+  "spans": {
+   "first_time_status": {
+    "v": "stated",
+    "s": "iam planning to start my first SIP in Parag Parikh Flexi Cap in 2025 is it safe and will be have profit"
+   },
+   "unmet_need": {
+    "v": "Asks whether the fund is safe and will be profitable",
+    "s": "is it safe and will be have profit"
+   }
+  },
+  "work": null,
+  "age": null,
+  "amount": "unknown",
+  "first_time": true,
+  "targeted": false
+ },
+ {
+  "uid": "reddit:comment:n1cf8ll",
+  "source": "reddit_comment",
+  "scope": "general",
+  "posted": "2025-07",
+  "group": "none",
+  "action": "unknown",
+  "routes": [
+   "not_stated"
+  ],
+  "areas": [
+   "C_returns_expectations"
+  ],
+  "quote": "I'm relatively new to mf investing. I want to know whether xirr is same as rolling returns or samr as sip rolling returns or something different.",
+  "spans": {
+   "first_time_status": {
+    "v": "likely",
+    "s": "I'm relatively new to mf investing."
+   },
+   "in_app_confusion": [
+    {
+     "v": "returns_calculation",
+     "s": "I want to know whether xirr is same as rolling returns or samr as sip rolling returns or something different."
+    }
+   ],
+   "unmet_need": {
+    "v": "Wants to understand the difference between XIRR and rolling returns",
+    "s": "I want to know whether xirr is same as rolling returns"
+   }
+  },
+  "work": null,
+  "age": null,
+  "amount": null,
+  "first_time": true,
+  "targeted": false
+ },
+ {
+  "uid": "reddit:post:1sckz2b",
+  "source": "reddit_post",
+  "scope": "general",
+  "posted": "2026-04",
+  "group": "consider",
+  "action": "considered_stopping",
+  "routes": [
+   "returns_disappointment"
+  ],
+  "areas": [
+   "C_returns_expectations"
+  ],
+  "quote": "started SIP in last June 2025 and they're all in loss currently. Is it a good choice to continue my SIPs in these? if not, what should I do?",
+  "spans": {
+   "action_primary": {
+    "v": "considered_stopping",
+    "s": "Is it a good choice to continue my SIPs in these? if not, what should I do?"
+   },
+   "trigger_primary": {
+    "v": "returns_disappointing",
+    "s": "they're all in loss currently"
+   },
+   "first_time_status": {
+    "v": "stated",
+    "s": "new to investment"
+   },
+   "in_app_confusion": [
+    {
+     "v": "why_negative",
+     "s": "they're all in loss currently"
+    }
+   ],
+   "experience": [
+    {
+     "v": "negative_returns",
+     "s": "they're all in loss currently"
+    }
+   ],
+   "unmet_need": {
+    "v": "Whether to continue losing SIPs in these funds or what to do instead",
+    "s": "Is it a good choice to continue my SIPs in these? if not, what should I do?"
+   }
+  },
+  "work": null,
+  "age": null,
+  "amount": "unknown",
+  "first_time": true,
+  "targeted": false
+ },
+ {
+  "uid": "youtube:comment:UgzF0J4AvMEJcpfoj1x4AaABAg",
+  "source": "youtube",
+  "scope": "general",
+  "posted": "2024-02",
+  "group": "none",
+  "action": "unknown",
+  "routes": [
+   "not_stated"
+  ],
+  "areas": [
+   "C_returns_expectations"
+  ],
+  "quote": "Kya sip ak saal ke liye bhi kr skte h",
+  "spans": {
+   "unmet_need": {
+    "v": "Wants to know whether a SIP can be run for just one year",
+    "s": "Kya sip ak saal ke liye bhi kr skte h"
+   }
+  },
+  "work": null,
+  "age": null,
+  "amount": null,
+  "first_time": true,
+  "targeted": false
+ },
+ {
+  "uid": "youtube:comment:UgzSUpDJI1dWRJjyD0N4AaABAg",
+  "source": "youtube",
+  "scope": "general",
+  "posted": "2025-08",
+  "group": "none",
+  "action": "unknown",
+  "routes": [
+   "not_stated"
+  ],
+  "areas": [
+   "D_cash_flow_flex"
+  ],
+  "quote": "SIP monthly 1000,2nd month 500,3month 1500 hege investment madabahuda tilisi.",
+  "spans": {
+   "in_app_confusion": [
+    {
+     "v": "other",
+     "s": "SIP monthly 1000,2nd month 500,3month 1500 hege investment madabahuda tilisi."
+    }
+   ],
+   "unmet_need": {
+    "v": "Wants to know how to invest varying monthly SIP amounts (1000, 500, 1500)",
+    "s": "SIP monthly 1000,2nd month 500,3month 1500 hege investment madabahuda tilisi."
+   }
+  },
+  "work": null,
+  "age": null,
+  "amount": null,
+  "first_time": true,
+  "targeted": false
+ },
+ {
+  "uid": "reddit:post:1h072eq",
+  "source": "reddit_post",
+  "scope": "general",
+  "posted": "2024-11",
+  "group": "cont",
+  "action": "continued",
+  "routes": [
+   "not_stated"
+  ],
+  "areas": [],
+  "quote": "1L in MFs, No significant savings as such. Started working 2 years ago. 65k in hand out of which 20k is given to parents",
+  "spans": {
+   "first_time_status": {
+    "v": "likely",
+    "s": "Started working 2 years ago."
+   },
+   "unmet_need": {
+    "v": "Benchmarks for savings and investments by age and tips for financial planning",
+    "s": "What are the ideal amount of savings and investments one should have by the age of 25, 30, 35 & 40+?"
+   }
+  },
+  "work": "salaried",
+  "age": 24,
+  "amount": {
+   "v": 12000.0,
+   "s": "12k - SIP"
+  },
+  "first_time": true,
+  "targeted": false
+ },
+ {
+  "uid": "youtube:comment:UgxKNHvOhToIunUA5ax4AaABAg",
+  "source": "youtube",
+  "scope": "general",
+  "posted": "2024-06",
+  "group": "none",
+  "action": "unknown",
+  "routes": [
+   "not_stated"
+  ],
+  "areas": [
+   "A_first_debit_and_autopay",
+   "E_sip_control"
+  ],
+  "quote": "hmm sip me 5 years k liye invest Krna chahte hai lekin wo toh 40 year ka end date show krta ha",
+  "spans": {
+   "in_app_confusion": [
+    {
+     "v": "sip_date_first_debit",
+     "s": "wo toh 40 year ka end date show krta ha"
+    }
+   ],
+   "unmet_need": {
+    "v": "Understand why the SIP shows a 40-year end date when a 5-year horizon is intended",
+    "s": "wo toh 40 year ka end date show krta ha"
+   }
+  },
+  "work": null,
+  "age": null,
+  "amount": null,
+  "first_time": true,
+  "targeted": false
+ },
+ {
+  "uid": "reddit:post:1fiwwbj",
+  "source": "reddit_post",
+  "scope": "general",
+  "posted": "2024-09",
+  "group": "none",
+  "action": "unknown",
+  "routes": [
+   "payment_lapse"
+  ],
+  "areas": [
+   "A_first_debit_and_autopay"
+  ],
+  "quote": null,
+  "spans": {
+   "first_time_status": {
+    "v": "likely",
+    "s": "I recently opened a demat account with hdfc securities"
+   },
+   "in_app_confusion": [
+    {
+     "v": "plan_type_direct_regular",
+     "s": "am I cooked cuz regular plans have high expense ratios"
+    }
+   ],
+   "experience": [
+    {
+     "v": "payment_problem",
+     "s": "it shows \"purchase order not allowed for the scheme\""
+    }
+   ],
+   "unmet_need": {
+    "v": "Understand why direct plan purchases are rejected and whether direct plans are closed",
+    "s": "are all the good direct plans closed and not accepting funds ?"
+   }
+  },
+  "work": null,
+  "age": null,
+  "amount": null,
+  "first_time": true,
+  "targeted": false
+ },
+ {
+  "uid": "youtube:comment:UgyjPV8-LTQ1sO9fDix4AaABAg",
+  "source": "youtube",
+  "scope": "general",
+  "posted": "2025-12",
+  "group": "none",
+  "action": "unknown",
+  "routes": [
+   "not_stated"
+  ],
+  "areas": [
+   "C_returns_expectations"
+  ],
+  "quote": "Agar hamne pehli sip sbi mein kari toh kya har mahine sip us mein he karni",
+  "spans": {
+   "first_time_status": {
+    "v": "stated",
+    "s": "pehli sip sbi mein kari"
+   },
+   "unmet_need": {
+    "v": "Asks whether SIP must be continued every month after the first instalment",
+    "s": "kya har mahine sip us mein he karni"
+   }
+  },
+  "work": null,
+  "age": null,
+  "amount": null,
+  "first_time": true,
+  "targeted": false
+ },
+ {
+  "uid": "reddit:post:1kge4u4",
+  "source": "reddit_post",
+  "scope": "general",
+  "posted": "2025-05",
+  "group": "none",
+  "action": "unknown",
+  "routes": [
+   "not_stated"
+  ],
+  "areas": [
+   "C_returns_expectations"
+  ],
+  "quote": "On the fund page 1 day return is shown as 0.47% however on my SiP details page I see the 1day retun for same fund is shown as -0.33%",
+  "spans": {
+   "first_time_status": {
+    "v": "likely",
+    "s": "I recently started sip."
+   },
+   "in_app_confusion": [
+    {
+     "v": "returns_calculation",
+     "s": "Why are these two different?"
+    }
+   ],
+   "experience": [
+    {
+     "v": "confusing_numbers",
+     "s": "On the fund page 1 day return is shown as 0.47% however on my SiP details page I see the 1day retun for same fund is shown as -0.33%"
+    }
+   ],
+   "unmet_need": {
+    "v": "Explanation of differing 1-day return figures in app",
+    "s": "Why are these two different?"
+   }
+  },
+  "work": null,
+  "age": null,
+  "amount": null,
+  "first_time": true,
+  "targeted": false
+ },
+ {
+  "uid": "youtube:comment:UgzyXEr4HAenk2BrMZh4AaABAg",
+  "source": "youtube",
+  "scope": "general",
+  "posted": "2024-10",
+  "group": "none",
+  "action": "unknown",
+  "routes": [
+   "not_stated"
+  ],
+  "areas": [
+   "C_returns_expectations"
+  ],
+  "quote": "M 1lakh jo btara h vo smjhh nhi aaya",
+  "spans": {
+   "in_app_confusion": [
+    {
+     "v": "returns_calculation",
+     "s": "M 1lakh jo btara h vo smjhh nhi aaya"
+    }
+   ]
+  },
+  "work": null,
+  "age": null,
+  "amount": null,
+  "first_time": true,
+  "targeted": false
+ },
+ {
+  "uid": "reddit:post:1j0tnfg",
+  "source": "reddit_post",
+  "scope": "general",
+  "posted": "2025-03",
+  "group": "cont",
+  "action": "increased_or_stepped_up",
+  "routes": [
+   "not_stated"
+  ],
+  "areas": [],
+  "quote": null,
+  "spans": {
+   "action_primary": {
+    "v": "increased_or_stepped_up",
+    "s": "A month later, I bumped it to 15k and then to 17.5K."
+   },
+   "first_time_status": {
+    "v": "likely",
+    "s": "got introduced to Mutual Funds a year ago."
+   },
+   "start_reason": [
+    {
+     "v": "friend_colleague",
+     "s": "I then consulted my friends, researched, and started with an SIP of 3k."
+    }
+   ],
+   "unmet_need": {
+    "v": "Wants a portfolio review, learning of mistakes, and fund allocation advice for raising SIP to 30K",
+    "s": "I would love to get a review of my portfolio and learn about the mistakes I made."
+   }
+  },
+  "work": null,
+  "age": 22.0,
+  "amount": 17500.0,
+  "first_time": true,
+  "targeted": false
+ },
+ {
+  "uid": "reddit:post:1j0u6am",
+  "source": "reddit_post",
+  "scope": "general",
+  "posted": "2025-03",
+  "group": "cont",
+  "action": "increased_or_stepped_up",
+  "routes": [
+   "not_stated"
+  ],
+  "areas": [],
+  "quote": null,
+  "spans": {
+   "action_primary": {
+    "v": "increased_or_stepped_up",
+    "s": "A month later, I bumped it to 15k and then to 17.5K."
+   },
+   "first_time_status": {
+    "v": "likely",
+    "s": "got introduced to Mutual Funds a year ago."
+   },
+   "start_reason": [
+    {
+     "v": "friend_colleague",
+     "s": "I then consulted my friends, researched, and started with an SIP of 3k."
+    }
+   ],
+   "unmet_need": {
+    "v": "Wants a portfolio review, learning of mistakes, and fund allocation advice for raising SIP to 30K",
+    "s": "I would love to get a review of my portfolio and learn about the mistakes I made."
+   }
+  },
+  "work": null,
+  "age": 22.0,
+  "amount": 17500.0,
+  "first_time": true,
+  "targeted": false
+ },
+ {
+  "uid": "reddit:post:1i7zqfd",
+  "source": "reddit_post",
+  "scope": "general",
+  "posted": "2025-01",
+  "group": "none",
+  "action": "unknown",
+  "routes": [
+   "not_stated"
+  ],
+  "areas": [
+   "D_cash_flow_flex"
+  ],
+  "quote": "I really want to invest much in SIPs and Gold. But don’t know how to segregate them properly.",
+  "spans": {
+   "first_time_status": {
+    "v": "likely",
+    "s": "It’s been 6 months since I started earning"
+   },
+   "unmet_need": {
+    "v": "Wants help budgeting salary to split savings between SIPs and gold",
+    "s": "Not sure how to budget my salary."
+   }
+  },
+  "work": "salaried",
+  "age": 21,
+  "amount": null,
+  "first_time": true,
+  "targeted": false
+ },
+ {
+  "uid": "youtube:comment:Ugy_yuADU7vR1-echvZ4AaABAg",
+  "source": "youtube",
+  "scope": "general",
+  "posted": "2024-05",
+  "group": "none",
+  "action": "unknown",
+  "routes": [
+   "not_stated"
+  ],
+  "areas": [
+   "A_first_debit_and_autopay"
+  ],
+  "quote": "Sir Agar Account me  paisa nahi rahega to kaise katega",
+  "spans": {
+   "in_app_confusion": [
+    {
+     "v": "autopay_mandate",
+     "s": "Sir Agar Account me  paisa nahi rahega to kaise katega"
+    }
+   ],
+   "unmet_need": {
+    "v": "Wants to know what happens to the SIP debit when the account balance is insufficient",
+    "s": "Sir Agar Account me  paisa nahi rahega to kaise katega"
+   }
+  },
+  "work": null,
+  "age": null,
+  "amount": null,
+  "first_time": true,
+  "targeted": false
+ },
+ {
+  "uid": "reddit:post:1daegnm",
+  "source": "reddit_post",
+  "scope": "general",
+  "posted": "2024-06",
+  "group": "none",
+  "action": "unknown",
+  "routes": [
+   "not_stated"
+  ],
+  "areas": [
+   "C_returns_expectations"
+  ],
+  "quote": "But in the recent experiences (like COVID), the market crashed. How to manage. This is my only worry and concern.",
+  "spans": {
+   "start_reason": [
+    {
+     "v": "goal_specific",
+     "s": "I plan to invest 12 to 15K monthly for his higher education."
+    }
+   ],
+   "unmet_need": {
+    "v": "wants guidance on managing market crash risk for child's education fund",
+    "s": "how to manage. This is my only worry and concern."
+   }
+  },
+  "work": "salaried",
+  "age": 30,
+  "amount": null,
+  "first_time": true,
+  "targeted": false
+ },
+ {
+  "uid": "reddit:post:1dagd0u",
+  "source": "reddit_post",
+  "scope": "general",
+  "posted": "2024-06",
+  "group": "cont",
+  "action": "continued",
+  "routes": [
+   "not_stated"
+  ],
+  "areas": [],
+  "quote": "I want to invest more than 20-30k in stocks or SIP. Please help your beginner friend.",
+  "spans": {
+   "action_primary": {
+    "v": "continued",
+    "s": "I am already doing investment on mutual funds through sip like Quant mid cap(2k/month)"
+   },
+   "first_time_status": {
+    "v": "stated",
+    "s": "I am a beginner and have no knowledge on how things should be done."
+   },
+   "unmet_need": {
+    "v": "wants stock picks with good returns for a beginner",
+    "s": "Please suggest some stocks which i can buy and forget and they should be giving good returns too."
+   }
+  },
+  "work": "salaried",
+  "age": 21.0,
+  "amount": 5500.0,
+  "first_time": true,
+  "targeted": false
+ },
+ {
+  "uid": "reddit:post:1ka39z2",
+  "source": "reddit_post",
+  "scope": "general",
+  "posted": "2025-04",
+  "group": "none",
+  "action": "unknown",
+  "routes": [
+   "returns_disappointment"
+  ],
+  "areas": [
+   "C_returns_expectations"
+  ],
+  "quote": "am I missing something because imo Parag Parikh flexi is underperforming?",
+  "spans": {
+   "first_time_status": {
+    "v": "stated",
+    "s": "I'm a beginner planning to invest 7K a month"
+   },
+   "experience": [
+    {
+     "v": "flat",
+     "s": "am I missing something because imo Parag Parikh flexi is underperforming?"
+    }
+   ],
+   "unmet_need": {
+    "v": "Wants to know whether choosing between two funds is right given returns and risk ratios",
+    "s": "confused between these two funds."
+   }
+  },
+  "work": null,
+  "age": null,
+  "amount": null,
+  "first_time": true,
+  "targeted": false
+ },
+ {
+  "uid": "youtube:comment:Ugy4DPkWlkHax80dgIh4AaABAg",
+  "source": "youtube",
+  "scope": "general",
+  "posted": "2026-06",
+  "group": "none",
+  "action": "unknown",
+  "routes": [
+   "not_stated"
+  ],
+  "areas": [
+   "B_money_status_and_resolution"
+  ],
+  "quote": "Payment karne ke baad kitne din baad sip book ho jayega sir please reply",
+  "spans": {
+   "in_app_confusion": [
+    {
+     "v": "order_status_units",
+     "s": "Payment karne ke baad kitne din baad sip book ho jayega sir please reply"
+    }
+   ],
+   "unmet_need": {
+    "v": "Wants to know how many days after payment the SIP gets booked",
+    "s": "Payment karne ke baad kitne din baad sip book ho jayega sir please reply"
+   }
+  },
+  "work": null,
+  "age": null,
+  "amount": null,
+  "first_time": true,
+  "targeted": false
+ },
+ {
+  "uid": "reddit:post:1phmn5x",
+  "source": "reddit_post",
+  "scope": "general",
+  "posted": "2025-12",
+  "group": "none",
+  "action": "started_new",
+  "routes": [
+   "returns_disappointment"
+  ],
+  "areas": [
+   "C_returns_expectations"
+  ],
+  "quote": "I just started mutual funds this month for first time with no experience. I know it takes 10 15 years time but is it normal for stocks to dip",
+  "spans": {
+   "action_primary": {
+    "v": "started_new",
+    "s": "I just started mutual funds this month for first time with no experience."
+   },
+   "first_time_status": {
+    "v": "stated",
+    "s": "I just started mutual funds this month for first time with no experience."
+   },
+   "unmet_need": {
+    "v": "Wants to know whether stocks dipping is normal for a new investor",
+    "s": "is it normal for stocks to dip"
+   }
+  },
+  "work": null,
+  "age": null,
+  "amount": "unknown",
+  "first_time": true,
+  "targeted": false
+ },
+ {
+  "uid": "reddit:post:1pvg6r2",
+  "source": "reddit_post",
+  "scope": "general",
+  "posted": "2025-12",
+  "group": "none",
+  "action": "unknown",
+  "routes": [
+   "not_stated"
+  ],
+  "areas": [
+   "B_money_status_and_resolution",
+   "C_returns_expectations"
+  ],
+  "quote": "the lump sump amount i invested created a physical folio whereas the sip i have created now is tracked under a new demat folio",
+  "spans": {
+   "first_time_status": {
+    "v": "likely",
+    "s": "without much knowledge about MF"
+   },
+   "in_app_confusion": [
+    {
+     "v": "where_money_went",
+     "s": "created a physical folio whereas the sip i have created now is tracked under a new demat folio"
+    }
+   ],
+   "experience": [
+    {
+     "v": "confusing_numbers",
+     "s": "created a physical folio whereas the sip i have created now is tracked under a new demat folio"
+    }
+   ],
+   "unmet_need": {
+    "v": "Understand whether split physical and demat folios for the same fund is a problem and what to do",
+    "s": "Is that a problem? Should i do something about it?"
+   }
+  },
+  "work": null,
+  "age": null,
+  "amount": null,
+  "first_time": true,
+  "targeted": false
+ },
+ {
+  "uid": "youtube:comment:UgyNDwK4H6Xpq0z_FLF4AaABAg",
+  "source": "youtube",
+  "scope": "general",
+  "posted": "2026-10",
+  "group": "none",
+  "action": "unknown",
+  "routes": [
+   "not_stated"
+  ],
+  "areas": [
+   "A_first_debit_and_autopay"
+  ],
+  "quote": "idh start cheyumbol year select cheyyano",
+  "spans": {
+   "in_app_confusion": [
+    {
+     "v": "sip_date_first_debit",
+     "s": "idh start cheyumbol year select cheyyano"
+    }
+   ],
+   "unmet_need": {
+    "v": "Unsure which year to select when starting the SIP",
+    "s": "idh start cheyumbol year select cheyyano"
+   }
+  },
+  "work": null,
+  "age": null,
+  "amount": null,
+  "first_time": true,
+  "targeted": false
+ },
+ {
+  "uid": "youtube:comment:Ugy3a5kjHSyKvE7pwjF4AaABAg",
+  "source": "youtube",
+  "scope": "general",
+  "posted": "2026-06",
+  "group": "none",
+  "action": "unknown",
+  "routes": [
+   "payment_lapse"
+  ],
+  "areas": [
+   "A_first_debit_and_autopay"
+  ],
+  "quote": "Kabu theke  vabchi 500 takar sip korbo kichu tye  hocche  na sab month  ai problem",
+  "spans": {
+   "first_time_status": {
+    "v": "likely",
+    "s": "Kabu theke  vabchi 500 takar sip korbo"
+   },
+   "in_app_confusion": [
+    {
+     "v": "sip_date_first_debit",
+     "s": "kichu tye  hocche  na sab month  ai problem"
+    }
+   ],
+   "experience": [
+    {
+     "v": "payment_problem",
+     "s": "kichu tye  hocche  na sab month  ai problem"
+    }
+   ],
+   "unmet_need": {
+    "v": "Fix the recurring debit problem for a 500 rupee SIP",
+    "s": "kichu tye  hocche  na sab month  ai problem"
+   }
+  },
+  "work": null,
+  "age": null,
+  "amount": null,
+  "first_time": true,
+  "targeted": false
+ },
+ {
+  "uid": "youtube:comment:UgwnNUur87UP9DVwQ754AaABAg",
+  "source": "youtube",
+  "scope": "general",
+  "posted": "2026-01",
+  "group": "none",
+  "action": "unknown",
+  "routes": [
+   "not_stated"
+  ],
+  "areas": [
+   "C_returns_expectations"
+  ],
+  "quote": "Accha BO account Chara Ami Jodi 20 year er Jonno monthly sip kori 5k R proti bochor 3k kore barai tahole ki Amar sob invest risk hobe!",
+  "spans": {
+   "unmet_need": {
+    "v": "Understand risk of a long-term SIP and how to redeem if a company fails",
+    "s": "Jodi Kuno company fail kore tahole Ami redeem korbo kivabe,Long term ki BO account Chara sip kore risk noi?"
+   }
+  },
+  "work": null,
+  "age": null,
+  "amount": null,
+  "first_time": true,
+  "targeted": false
+ },
+ {
+  "uid": "reddit:post:1c2eogp",
+  "source": "reddit_post",
+  "scope": "general",
+  "posted": "2024-04",
+  "group": "none",
+  "action": "unknown",
+  "routes": [
+   "not_stated"
+  ],
+  "areas": [
+   "D_cash_flow_flex"
+  ],
+  "quote": "I'm well aware about how mutual funds work as I've worked in a personal wealth management company as a summer intern during my MBA.",
+  "spans": {
+   "first_time_status": {
+    "v": "stated",
+    "s": "next month I'll be starting my first job"
+   },
+   "unmet_need": {
+    "v": "Wants to know what percentage of savings to put into mutual funds and where to keep the remainder liquid at a decent rate",
+    "s": "what % of my monthly savings should I invest in mutual funds"
+   }
+  },
+  "work": "salaried",
+  "age": null,
+  "amount": null,
+  "first_time": true,
+  "targeted": false
+ },
+ {
+  "uid": "reddit:post:1gos571",
+  "source": "reddit_post",
+  "scope": "general",
+  "posted": "2024-11",
+  "group": "none",
+  "action": "unknown",
+  "routes": [
+   "cash_flow"
+  ],
+  "areas": [
+   "D_cash_flow_flex"
+  ],
+  "quote": "I am very much beginner to this so can anyone help me with a mutual fund plan that will help me achieve my dream in next 5-6 years",
+  "spans": {
+   "first_time_status": {
+    "v": "stated",
+    "s": "I am very much beginner to this"
+   },
+   "start_reason": [
+    {
+     "v": "goal_specific",
+     "s": "help me achieve my dream in next 5-6 years"
+    }
+   ],
+   "unmet_need": {
+    "v": "Wants a mutual fund plan to fund a home purchase in 5-6 years with Rs 10k monthly",
+    "s": "can anyone help me with a mutual fund plan that will help me achieve my dream in next 5-6 years"
+   }
+  },
+  "work": null,
+  "age": null,
+  "amount": {
+   "v": 10000.0,
+   "s": "I will only be able to keep 10k aside for mutual funds for now"
+  },
+  "first_time": true,
+  "targeted": false
+ },
+ {
+  "uid": "reddit:post:1bo2n4x",
+  "source": "reddit_post",
+  "scope": "general",
+  "posted": "2024-03",
+  "group": "none",
+  "action": "unknown",
+  "routes": [
+   "not_stated"
+  ],
+  "areas": [
+   "C_returns_expectations"
+  ],
+  "quote": "I have decided to go for direct mutual funds",
+  "spans": {
+   "first_time_status": {
+    "v": "stated",
+    "s": "Please help am extremely new to this"
+   },
+   "unmet_need": {
+    "v": "Wants to know whether a student's planned debt and equity SIP and lump sum plan is on the right track",
+    "s": "So whatever am thinking rn am I on a wrong track?"
+   }
+  },
+  "work": "student",
+  "age": null,
+  "amount": "unknown",
+  "first_time": true,
+  "targeted": false
+ },
+ {
   "uid": "reddit:post:1bo4htr",
   "source": "reddit_post",
   "scope": "general",
@@ -215,7 +1343,16 @@
    "D_cash_flow_flex"
   ],
   "quote": null,
-  "spans": {},
+  "spans": {
+   "first_time_status": {
+    "v": "stated",
+    "s": "New to MF."
+   },
+   "unmet_need": {
+    "v": "Review a planned MF allocation with a 15k monthly budget",
+    "s": "What should I add or deduct from this? I can go upto 15k"
+   }
+  },
   "work": null,
   "age": null,
   "amount": null,
@@ -568,7 +1705,30 @@
    "C_returns_expectations"
   ],
   "quote": null,
-  "spans": {},
+  "spans": {
+   "action_primary": {
+    "v": "continued_with_friction",
+    "s": "Do you want me to continue with NJ wealth or move the funds to some other platform?"
+   },
+   "trigger_primary": {
+    "v": "trust_concern_platform",
+    "s": "Do you want me to continue with NJ wealth or move the funds to some other platform?"
+   },
+   "first_time_status": {
+    "v": "likely",
+    "s": "I invested on these MF as a newbie"
+   },
+   "start_reason": [
+    {
+     "v": "employer_or_advisor",
+     "s": "after talking to NJ advisor 7months ago"
+    }
+   ],
+   "unmet_need": {
+    "v": "Decide whether to stay with current advisor platform or move funds, and whether to raise SIP from 20k to 50k",
+    "s": "Do you want me to continue with NJ wealth or move the funds to some other platform? also is my portfolio good? I currently invest 20k and I have a room to increase to 50k should I do it or wait ?"
+   }
+  },
   "work": null,
   "age": null,
   "amount": 20000.0,
@@ -2365,7 +3525,12 @@
    "C_returns_expectations"
   ],
   "quote": null,
-  "spans": {},
+  "spans": {
+   "unmet_need": {
+    "v": "Understand why market timing does not matter for SIP investing",
+    "s": "I don’t fully get why people say “timing the market doesn’t matter”"
+   }
+  },
   "work": null,
   "age": null,
   "amount": null,
@@ -4940,7 +6105,16 @@
    "C_returns_expectations"
   ],
   "quote": null,
-  "spans": {},
+  "spans": {
+   "first_time_status": {
+    "v": "stated",
+    "s": "Beginner here:"
+   },
+   "unmet_need": {
+    "v": "Wants guidance on whether a planned 10-year SIP is good",
+    "s": "Need guidance"
+   }
+  },
   "work": null,
   "age": null,
   "amount": null,
@@ -6451,7 +7625,20 @@
   ],
   "areas": [],
   "quote": null,
-  "spans": {},
+  "spans": {
+   "action_primary": {
+    "v": "continued",
+    "s": "SIP: ₹55k/month split like this:"
+   },
+   "first_time_status": {
+    "v": "likely",
+    "s": "Total noob here. 6 months into investing."
+   },
+   "unmet_need": {
+    "v": "Feedback on whether the SIP allocation is too aggressive and what to change",
+    "s": "Feels like I’m heavy on mid/small cap. Can increase the total sip amount to 70-75k"
+   }
+  },
   "work": null,
   "age": 23,
   "amount": 55000.0,
@@ -8263,7 +9450,26 @@
    "C_returns_expectations"
   ],
   "quote": null,
-  "spans": {},
+  "spans": {
+   "action_primary": {
+    "v": "continued",
+    "s": "i just wanted to start SIP and will increase the amount once i get a job"
+   },
+   "first_time_status": {
+    "v": "likely",
+    "s": "I'm a newbie in investing and started my SIPs from this year Jan only."
+   },
+   "start_reason": [
+    {
+     "v": "other",
+     "s": "i just wanted to start SIP and will increase the amount once i get a job"
+    }
+   ],
+   "unmet_need": {
+    "v": "Knows which life situations would justify pulling out SIP money early",
+    "s": "are there any particular things or situations when it will be better to pull out my money?"
+   }
+  },
   "work": "student",
   "age": null,
   "amount": "unknown",
@@ -12540,7 +13746,22 @@
    "A_first_debit_and_autopay"
   ],
   "quote": null,
-  "spans": {},
+  "spans": {
+   "first_time_status": {
+    "v": "stated",
+    "s": "very new to investing"
+   },
+   "in_app_confusion": [
+    {
+     "v": "sip_date_first_debit",
+     "s": "what will be the difference if I opt for sip for 10k monthly, and if I invest 10k every month regularly without opting or committing to sip"
+    }
+   ],
+   "unmet_need": {
+    "v": "Understand difference between SIP and regular monthly investing",
+    "s": "Could anyone explain that what will be the difference if I opt for sip for 10k monthly"
+   }
+  },
   "work": "student",
   "age": 18,
   "amount": null,
@@ -14140,7 +15361,18 @@
    "C_returns_expectations"
   ],
   "quote": null,
-  "spans": {},
+  "spans": {
+   "in_app_confusion": [
+    {
+     "v": "returns_calculation",
+     "s": "ELI5 xirr in mutual funds"
+    }
+   ],
+   "unmet_need": {
+    "v": "Simple explanation of how XIRR is calculated for mutual fund returns",
+    "s": "ELI5 xirr in mutual funds"
+   }
+  },
   "work": null,
   "age": null,
   "amount": null,
@@ -18245,7 +19477,16 @@
    "C_returns_expectations"
   ],
   "quote": null,
-  "spans": {},
+  "spans": {
+   "first_time_status": {
+    "v": "stated",
+    "s": "First time investor"
+   },
+   "unmet_need": {
+    "v": "Wants to know whether to wait for a market crash before investing in mutual funds",
+    "s": "Should i wait till the market crashes or falls a bit before investing in mf?"
+   }
+  },
   "work": null,
   "age": null,
   "amount": null,
@@ -18517,7 +19758,26 @@
   ],
   "areas": [],
   "quote": null,
-  "spans": {},
+  "spans": {
+   "action_primary": {
+    "v": "continued",
+    "s": "I have 3 SIP'S ongoing"
+   },
+   "first_time_status": {
+    "v": "not",
+    "s": "1 Year into investing"
+   },
+   "start_reason": [
+    {
+     "v": "goal_specific",
+     "s": "use that money to buy a house and a car for my family"
+    }
+   ],
+   "unmet_need": {
+    "v": "Asks where to invest and what they are lacking for long-term house and car goals",
+    "s": "please suggest what I am lacking rn and where should I invest my money"
+   }
+  },
   "work": "salaried",
   "age": null,
   "amount": 20000.0,
@@ -18873,7 +20133,20 @@
    "C_returns_expectations"
   ],
   "quote": null,
-  "spans": {},
+  "spans": {
+   "action_primary": {
+    "v": "started_new",
+    "s": "Started 10 SIPs from today"
+   },
+   "first_time_status": {
+    "v": "likely",
+    "s": "Started 10 SIPs from today"
+   },
+   "unmet_need": {
+    "v": "Validation that the 10 SIPs were set up correctly",
+    "s": "did I invest correctly?"
+   }
+  },
   "work": null,
   "age": null,
   "amount": "unknown",
@@ -28146,7 +29419,22 @@
    "C_returns_expectations"
   ],
   "quote": null,
-  "spans": {},
+  "spans": {
+   "first_time_status": {
+    "v": "likely",
+    "s": "I'm a newbie!"
+   },
+   "experience": [
+    {
+     "v": "negative_returns",
+     "s": "I want to fix it!"
+    }
+   ],
+   "unmet_need": {
+    "v": "Advice on which holdings to keep, average out, or sell",
+    "s": "Please suggest me which one to hold ( and also average out) and which one to sell!"
+   }
+  },
   "work": null,
   "age": null,
   "amount": null,
@@ -34990,7 +36278,16 @@
    "C_returns_expectations"
   ],
   "quote": null,
-  "spans": {},
+  "spans": {
+   "first_time_status": {
+    "v": "stated",
+    "s": "beginner in mutual funds."
+   },
+   "unmet_need": {
+    "v": "Wants to hear other investors' experiences of how their funds performed against earlier predictions",
+    "s": "i’d like to hear how it has developed over the years specifically the funds you invested in as compared to the at the time prediction"
+   }
+  },
   "work": null,
   "age": null,
   "amount": null,
@@ -36470,7 +37767,36 @@
    "C_returns_expectations"
   ],
   "quote": null,
-  "spans": {},
+  "spans": {
+   "action_primary": {
+    "v": "considered_stopping",
+    "s": "confused if I should continue or stop"
+   },
+   "trigger_primary": {
+    "v": "returns_disappointing",
+    "s": "SIPs in loss"
+   },
+   "first_time_status": {
+    "v": "likely",
+    "s": "New investor here"
+   },
+   "in_app_confusion": [
+    {
+     "v": "why_negative",
+     "s": "SIPs in loss"
+    }
+   ],
+   "experience": [
+    {
+     "v": "negative_returns",
+     "s": "SIPs in loss"
+    }
+   ],
+   "unmet_need": {
+    "v": "Wants guidance on whether to continue or stop SIPs that are in loss",
+    "s": "confused if I should continue or stop"
+   }
+  },
   "work": null,
   "age": null,
   "amount": "unknown",
@@ -39508,7 +40834,16 @@
    "D_cash_flow_flex"
   ],
   "quote": null,
-  "spans": {},
+  "spans": {
+   "first_time_status": {
+    "v": "likely",
+    "s": "i started investing 2 month ago"
+   },
+   "unmet_need": {
+    "v": "Wants guidance on improving portfolio without fixed monthly SIP",
+    "s": "i can not do sip because i don't have fixed income every month"
+   }
+  },
   "work": null,
   "age": null,
   "amount": "unknown",
@@ -39615,7 +40950,12 @@
    "E_sip_control"
   ],
   "quote": null,
-  "spans": {},
+  "spans": {
+   "unmet_need": {
+    "v": "Wants help with their SIP",
+    "s": "I need help with my SIP"
+   }
+  },
   "work": null,
   "age": 19,
   "amount": null,
@@ -40364,7 +41704,16 @@
    "D_cash_flow_flex"
   ],
   "quote": null,
-  "spans": {},
+  "spans": {
+   "first_time_status": {
+    "v": "stated",
+    "s": "new to personal finance world"
+   },
+   "unmet_need": {
+    "v": "Understand how to apply general investing guidance to a monthly investment amount",
+    "s": "not able to connect it with m expectations like 8k monthly I am looking to invest"
+   }
+  },
   "work": null,
   "age": null,
   "amount": null,
@@ -40665,7 +42014,16 @@
    "C_returns_expectations"
   ],
   "quote": null,
-  "spans": {},
+  "spans": {
+   "first_time_status": {
+    "v": "likely",
+    "s": "I am a new investor (26)."
+   },
+   "unmet_need": {
+    "v": "Wants to know whether to start mutual fund investing now or wait for market prices to normalise",
+    "s": "should I start investing in mutual funds right now or wait for prices to normalise?"
+   }
+  },
   "work": null,
   "age": 26,
   "amount": null,
@@ -41013,7 +42371,12 @@
    "C_returns_expectations"
   ],
   "quote": null,
-  "spans": {},
+  "spans": {
+   "unmet_need": {
+    "v": "Asks whether to choose SIP, high-risk investments, or upskilling",
+    "s": "CA Student Seeking Advice: SIP, High-Risk Investments, or Upskilling?"
+   }
+  },
   "work": "student",
   "age": null,
   "amount": null,
@@ -41622,7 +42985,18 @@
    "C_returns_expectations"
   ],
   "quote": null,
-  "spans": {},
+  "spans": {
+   "in_app_confusion": [
+    {
+     "v": "returns_calculation",
+     "s": "Can someone please explain what is the expected interest with SIPs?"
+    }
+   ],
+   "unmet_need": {
+    "v": "Wants an explanation of expected returns from SIPs",
+    "s": "Can someone please explain what is the expected interest with SIPs?"
+   }
+  },
   "work": null,
   "age": null,
   "amount": null,
@@ -42285,7 +43659,16 @@
    "C_returns_expectations"
   ],
   "quote": null,
-  "spans": {},
+  "spans": {
+   "first_time_status": {
+    "v": "likely",
+    "s": "I have never invested any money to mutual funds"
+   },
+   "unmet_need": {
+    "v": "Wants to know whether to start investing in a mutual fund as a first-time investor",
+    "s": "should I start with this?"
+   }
+  },
   "work": null,
   "age": null,
   "amount": null,
@@ -42436,7 +43819,18 @@
    "A_first_debit_and_autopay"
   ],
   "quote": null,
-  "spans": {},
+  "spans": {
+   "in_app_confusion": [
+    {
+     "v": "sip_date_first_debit",
+     "s": "How does sip work in india?"
+    }
+   ],
+   "unmet_need": {
+    "v": "Wants to understand how SIPs work in India",
+    "s": "How does sip work in india?"
+   }
+  },
   "work": null,
   "age": null,
   "amount": null,
@@ -43878,7 +45272,16 @@
    "C_returns_expectations"
   ],
   "quote": null,
-  "spans": {},
+  "spans": {
+   "first_time_status": {
+    "v": "likely",
+    "s": "I am a newbie"
+   },
+   "unmet_need": {
+    "v": "Wants an assessment of how their mutual fund investments are doing",
+    "s": "How am I doing?"
+   }
+  },
   "work": null,
   "age": null,
   "amount": null,
@@ -44531,7 +45934,16 @@
    "C_returns_expectations"
   ],
   "quote": null,
-  "spans": {},
+  "spans": {
+   "first_time_status": {
+    "v": "stated",
+    "s": "Am I messing up my SIPs as a beginner?"
+   },
+   "unmet_need": {
+    "v": "Advice on whether they are handling SIPs correctly as a beginner",
+    "s": "Am I messing up my SIPs as a beginner? Need advice"
+   }
+  },
   "work": null,
   "age": null,
   "amount": null,
@@ -46498,7 +47910,16 @@
   ],
   "areas": [],
   "quote": null,
-  "spans": {},
+  "spans": {
+   "action_primary": {
+    "v": "increased_or_stepped_up",
+    "s": "I’m about to increase it to ₹15,000/month."
+   },
+   "unmet_need": {
+    "v": "Feedback on mutual fund portfolio split and whether to add US market exposure",
+    "s": "How would you rate my current flexi cap / mid cap / large cap split?"
+   }
+  },
   "work": null,
   "age": 24.0,
   "amount": 10000.0,
@@ -46998,7 +48419,16 @@
    "C_returns_expectations"
   ],
   "quote": null,
-  "spans": {},
+  "spans": {
+   "first_time_status": {
+    "v": "likely",
+    "s": "Just started earning last year (finished my college last year)."
+   },
+   "unmet_need": {
+    "v": "Wants a review of whether to stop or add SIPs",
+    "s": "Review my fund as to should I stop any sip? or should I start any new sip or anything else?"
+   }
+  },
   "work": "salaried",
   "age": null,
   "amount": null,
@@ -48050,7 +49480,12 @@
    "C_returns_expectations"
   ],
   "quote": null,
-  "spans": {},
+  "spans": {
+   "unmet_need": {
+    "v": "Wants feedback on whether their investment approach is right",
+    "s": "Kindly give me idea if I am doing it right"
+   }
+  },
   "work": null,
   "age": 26,
   "amount": null,
@@ -48668,7 +50103,16 @@
    "C_returns_expectations"
   ],
   "quote": null,
-  "spans": {},
+  "spans": {
+   "first_time_status": {
+    "v": "likely",
+    "s": "Hi, a noobie here."
+   },
+   "unmet_need": {
+    "v": "Wants advice on whether to invest 80k lumpsum in a mutual fund instead of FD",
+    "s": "so need your advice on what should i do?"
+   }
+  },
   "work": null,
   "age": null,
   "amount": null,
@@ -49203,7 +50647,18 @@
    "C_returns_expectations"
   ],
   "quote": null,
-  "spans": {},
+  "spans": {
+   "experience": [
+    {
+     "v": "negative_returns",
+     "s": "invested 2L+ and still in losses"
+    }
+   ],
+   "unmet_need": {
+    "v": "Wants a review of a mutual fund portfolio that is in losses",
+    "s": "Need help reviewing my MF portfolio"
+   }
+  },
   "work": null,
   "age": 22,
   "amount": null,
@@ -51065,7 +52520,12 @@
    "C_returns_expectations"
   ],
   "quote": null,
-  "spans": {},
+  "spans": {
+   "unmet_need": {
+    "v": "Wants advice on whether to add ₹40k, where to park the ₹14L lump sum, and whether an extra Nifty 50 index SIP is overlapping",
+    "s": "₹14L lump sum is biggest problem. Should i move it to liquid or arbitrage funds for the yield and leave it there? STP into equity over 12-18 months?"
+   }
+  },
   "work": "salaried",
   "age": 26,
   "amount": null,
@@ -56865,7 +58325,16 @@
    "C_returns_expectations"
   ],
   "quote": null,
-  "spans": {},
+  "spans": {
+   "first_time_status": {
+    "v": "likely",
+    "s": "Newbie here."
+   },
+   "unmet_need": {
+    "v": "Wants to know if their mutual fund SIP approach is correct",
+    "s": "Am I doing the mutual fund sip right?"
+   }
+  },
   "work": null,
   "age": null,
   "amount": null,
@@ -56924,7 +58393,16 @@
   ],
   "areas": [],
   "quote": null,
-  "spans": {},
+  "spans": {
+   "action_primary": {
+    "v": "continued",
+    "s": "Current monthly sip is 33k looking to increase as salary increases"
+   },
+   "unmet_need": {
+    "v": "Feedback on current portfolio and suggestions",
+    "s": "Looking for feedback/suggestions on my current portfolio"
+   }
+  },
   "work": null,
   "age": null,
   "amount": 33000.0,
@@ -61838,7 +63316,20 @@
    "C_returns_expectations"
   ],
   "quote": null,
-  "spans": {},
+  "spans": {
+   "action_primary": {
+    "v": "increased_or_stepped_up",
+    "s": "I want to invest around 6k per month pls suggest where should I invest pending 4k"
+   },
+   "first_time_status": {
+    "v": "stated",
+    "s": "I'm fairly new to investing"
+   },
+   "unmet_need": {
+    "v": "Wants advice on where to invest the remaining amount and whether current SIPs make sense",
+    "s": "Please tell whether my current investment makes sense and where should I invest the rest."
+   }
+  },
   "work": null,
   "age": null,
   "amount": 2000.0,
@@ -62775,1603 +64266,6 @@
    "v": 1000.0,
    "s": "I've invested ₹1,000 each in two funds."
   },
-  "first_time": true,
-  "targeted": false
- },
- {
-  "uid": "reddit:post:1k565tm",
-  "source": "reddit_post",
-  "scope": "general",
-  "posted": "2025-04",
-  "group": "cont",
-  "action": "continued_with_friction",
-  "routes": [
-   "cash_flow"
-  ],
-  "areas": [
-   "D_cash_flow_flex"
-  ],
-  "quote": "I have 20k/month going in SIP (internship and gig money) since 1 year ( I know it's lot and I need to diversify )",
-  "spans": {
-   "action_primary": {
-    "v": "continued",
-    "s": "I have 20k/month going in SIP (internship and gig money) since 1 year"
-   },
-   "trigger_primary": {
-    "v": "none",
-    "s": "I have 20k/month going in SIP (internship and gig money) since 1 year"
-   },
-   "first_time_status": {
-    "v": "likely",
-    "s": "Just started earning, nothing substantial around 70k/month."
-   },
-   "unmet_need": {
-    "v": "Wants guidance on choosing between term insurance types and managing SIP alongside student debt repayment",
-    "s": "I was thinking of getting a term but confused between getting simple Term plan"
-   }
-  },
-  "work": "variable_or_gig",
-  "age": null,
-  "amount": {
-   "v": 20000.0,
-   "s": "I have 20k/month going in SIP (internship and gig money) since 1 year"
-  },
-  "first_time": true,
-  "targeted": false
- },
- {
-  "uid": "reddit:post:193uim9",
-  "source": "reddit_post",
-  "scope": "general",
-  "posted": "2024-01",
-  "group": "none",
-  "action": "unknown",
-  "routes": [
-   "not_stated"
-  ],
-  "areas": [
-   "C_returns_expectations"
-  ],
-  "quote": "Isn’t it better to stop it during bull run and wait for market correction?",
-  "spans": {
-   "first_time_status": {
-    "v": "stated",
-    "s": "pretty new to MFs"
-   },
-   "in_app_confusion": [
-    {
-     "v": "other",
-     "s": "Question is, do they exit the stocks to book some profit and hold the amount such that they can invest during bear market?"
-    }
-   ],
-   "unmet_need": {
-    "v": "Understand how fund managers handle SIP money and whether to pause SIPs during a bull run",
-    "s": "Want to understand the role of Fund Managers."
-   }
-  },
-  "work": null,
-  "age": null,
-  "amount": null,
-  "first_time": true,
-  "targeted": false
- },
- {
-  "uid": "reddit:post:1gqya8u",
-  "source": "reddit_post",
-  "scope": "general",
-  "posted": "2024-11",
-  "group": "cont",
-  "action": "continued",
-  "routes": [
-   "not_stated"
-  ],
-  "areas": [],
-  "quote": "I need help regarding selection of the mutual fund, what should i add or remove.",
-  "spans": {
-   "action_primary": {
-    "v": "continued",
-    "s": "have been doing continuous sip."
-   },
-   "first_time_status": {
-    "v": "not",
-    "s": "I started investing in mutual funds 10 months ago with JM flexi cap and have been doing continuous sip."
-   },
-   "experience": [
-    {
-     "v": "positive",
-     "s": "The returns were good till the day before yesterday."
-    }
-   ],
-   "unmet_need": {
-    "v": "Wants help choosing additional mutual funds and checking overlap in portfolio",
-    "s": "I need help regarding selection of the mutual fund, what should i add or remove."
-   }
-  },
-  "work": null,
-  "age": 23.0,
-  "amount": 15000.0,
-  "first_time": true,
-  "targeted": false
- },
- {
-  "uid": "reddit:post:1ocyor8",
-  "source": "reddit_post",
-  "scope": "general",
-  "posted": "2025-10",
-  "group": "none",
-  "action": "unknown",
-  "routes": [
-   "not_stated"
-  ],
-  "areas": [
-   "B_money_status_and_resolution"
-  ],
-  "quote": "why it is showing me units and nav?",
-  "spans": {
-   "first_time_status": {
-    "v": "likely",
-    "s": "Newbie here"
-   },
-   "in_app_confusion": [
-    {
-     "v": "order_status_units",
-     "s": "why it is showing me units and nav?"
-    }
-   ],
-   "unmet_need": {
-    "v": "Understand why the app shows units and NAV for SIP",
-    "s": "why it is showing me units and nav?"
-   }
-  },
-  "work": null,
-  "age": null,
-  "amount": null,
-  "first_time": true,
-  "targeted": false
- },
- {
-  "uid": "reddit:post:1ocz2p6",
-  "source": "reddit_post",
-  "scope": "general",
-  "posted": "2025-10",
-  "group": "none",
-  "action": "unknown",
-  "routes": [
-   "not_stated"
-  ],
-  "areas": [
-   "A_first_debit_and_autopay",
-   "B_money_status_and_resolution"
-  ],
-  "quote": null,
-  "spans": {
-   "first_time_status": {
-    "v": "likely",
-    "s": "newbie to etfs"
-   },
-   "in_app_confusion": [
-    {
-     "v": "sip_date_first_debit",
-     "s": "If I am doing 400 ruppes sip it is showing 80 ruppes will be unused why so"
-    }
-   ],
-   "unmet_need": {
-    "v": "Understand why part of the 400 rupee SIP is shown as unused and why it is not carried to later SIPs",
-    "s": "why it can't automatically use all the 400 ruppes or use the remaining amount in my next sips"
-   }
-  },
-  "work": null,
-  "age": null,
-  "amount": null,
-  "first_time": true,
-  "targeted": false
- },
- {
-  "uid": "youtube:comment:UgyufmY1vVNQfEfeZcV4AaABAg",
-  "source": "youtube",
-  "scope": "general",
-  "posted": "2025-02",
-  "group": "none",
-  "action": "unknown",
-  "routes": [
-   "not_stated"
-  ],
-  "areas": [
-   "E_sip_control"
-  ],
-  "quote": "Sip me kam se kam kitne same par paisa nikal sakte hai ji kirpa batao ji",
-  "spans": {
-   "in_app_confusion": [
-    {
-     "v": "skip_pause_cancel",
-     "s": "Sip me kam se kam kitne same par paisa nikal sakte hai ji"
-    }
-   ],
-   "unmet_need": {
-    "v": "Wants to know the minimum time before SIP money can be withdrawn",
-    "s": "Sip me kam se kam kitne same par paisa nikal sakte hai ji kirpa batao ji"
-   }
-  },
-  "work": null,
-  "age": null,
-  "amount": null,
-  "first_time": true,
-  "targeted": false
- },
- {
-  "uid": "youtube:comment:Ugyukq_H6d2Dtds-3MJ4AaABAg",
-  "source": "youtube",
-  "scope": "general",
-  "posted": "2024-06",
-  "group": "none",
-  "action": "unknown",
-  "routes": [
-   "not_stated"
-  ],
-  "areas": [
-   "C_returns_expectations"
-  ],
-  "quote": "Sip me capital chala jata h kya?",
-  "spans": {
-   "in_app_confusion": [
-    {
-     "v": "why_negative",
-     "s": "Sip me capital chala jata h kya?"
-    }
-   ],
-   "unmet_need": {
-    "v": "Wants to know whether SIP capital can be lost",
-    "s": "Sip me capital chala jata h kya?"
-   }
-  },
-  "work": null,
-  "age": null,
-  "amount": null,
-  "first_time": true,
-  "targeted": false
- },
- {
-  "uid": "youtube:comment:UgwushjrspOi32qBOil4AaABAg",
-  "source": "youtube",
-  "scope": "general",
-  "posted": "2025-07",
-  "group": "none",
-  "action": "unknown",
-  "routes": [
-   "not_stated"
-  ],
-  "areas": [
-   "C_returns_expectations"
-  ],
-  "quote": "500 invest karega toh profit kitina hoga",
-  "spans": {
-   "in_app_confusion": [
-    {
-     "v": "returns_calculation",
-     "s": "profit kitina hoga"
-    }
-   ],
-   "unmet_need": {
-    "v": "Estimate profit on a Rs 500 SIP",
-    "s": "profit kitina hoga"
-   }
-  },
-  "work": null,
-  "age": null,
-  "amount": null,
-  "first_time": true,
-  "targeted": false
- },
- {
-  "uid": "reddit:comment:lx4oo76",
-  "source": "reddit_comment",
-  "scope": "general",
-  "posted": "2024-11",
-  "group": "none",
-  "action": "unknown",
-  "routes": [
-   "returns_disappointment"
-  ],
-  "areas": [
-   "C_returns_expectations"
-  ],
-  "quote": null,
-  "spans": {
-   "in_app_confusion": [
-    {
-     "v": "exit_load_tax",
-     "s": "will the amount (not the gains, since i heard there's separate tax rate for short term and long term) will be taxable"
-    }
-   ],
-   "experience": [
-    {
-     "v": "flat",
-     "s": "very little gains"
-    }
-   ],
-   "unmet_need": {
-    "v": "Understand tax on withdrawing SIP money after 12 months",
-    "s": "will the amount (not the gains, since i heard there's separate tax rate for short term and long term) will be taxable"
-   }
-  },
-  "work": null,
-  "age": null,
-  "amount": null,
-  "first_time": true,
-  "targeted": false
- },
- {
-  "uid": "reddit:post:1i4hc3p",
-  "source": "reddit_post",
-  "scope": "general",
-  "posted": "2025-01",
-  "group": "none",
-  "action": "unknown",
-  "routes": [
-   "not_stated"
-  ],
-  "areas": [
-   "C_returns_expectations"
-  ],
-  "quote": "should I continue with my investments, stop or change my choice of funds.",
-  "spans": {
-   "first_time_status": {
-    "v": "likely",
-    "s": "started SIP into these funds 6 months ago"
-   },
-   "unmet_need": {
-    "v": "Wants advice on whether to continue, stop or change funds",
-    "s": "should I continue with my investments, stop or change my choice of funds."
-   }
-  },
-  "work": null,
-  "age": 20,
-  "amount": null,
-  "first_time": true,
-  "targeted": false
- },
- {
-  "uid": "reddit:post:1i4p5jz",
-  "source": "reddit_post",
-  "scope": "general",
-  "posted": "2025-01",
-  "group": "cont",
-  "action": "continued",
-  "routes": [
-   "not_stated"
-  ],
-  "areas": [
-   "C_returns_expectations"
-  ],
-  "quote": "I am not sure if I am doing it right",
-  "spans": {
-   "first_time_status": {
-    "v": "likely",
-    "s": "I just turned 18 last year and have decided that I will invest 1k rs every month"
-   },
-   "unmet_need": {
-    "v": "Unsure if investing correctly and wants fund guidance",
-    "s": "I am not sure if I am doing it right"
-   }
-  },
-  "work": null,
-  "age": 18.0,
-  "amount": 1000.0,
-  "first_time": true,
-  "targeted": false
- },
- {
-  "uid": "reddit:post:1gffg91",
-  "source": "reddit_post",
-  "scope": "general",
-  "posted": "2024-10",
-  "group": "none",
-  "action": "unknown",
-  "routes": [
-   "returns_disappointment"
-  ],
-  "areas": [
-   "C_returns_expectations"
-  ],
-  "quote": "I know it's going down but I'm here for long term. Doing 10k SIP from 4 months.",
-  "spans": {
-   "action_primary": {
-    "v": "continued",
-    "s": "I'm here for long term"
-   },
-   "trigger_primary": {
-    "v": "none",
-    "s": "I'm here for long term"
-   },
-   "experience": [
-    {
-     "v": "flat",
-     "s": "I know it's going down but I'm here for long term."
-    }
-   ]
-  },
-  "work": null,
-  "age": null,
-  "amount": 10000.0,
-  "first_time": true,
-  "targeted": false
- },
- {
-  "uid": "reddit:post:1d05ext",
-  "source": "reddit_post",
-  "scope": "general",
-  "posted": "2024-05",
-  "group": "cont",
-  "action": "continued",
-  "routes": [
-   "not_stated"
-  ],
-  "areas": [],
-  "quote": "Please review my mutual fund portfolio. Started investing this year.  Roughly 15k per month.",
-  "spans": {
-   "action_primary": {
-    "v": "started_new",
-    "s": "Started investing this year."
-   },
-   "first_time_status": {
-    "v": "likely",
-    "s": "Started investing this year."
-   },
-   "unmet_need": {
-    "v": "wants a review of their mutual fund portfolio",
-    "s": "Please review my mutual fund portfolio."
-   }
-  },
-  "work": null,
-  "age": null,
-  "amount": 15000.0,
-  "first_time": true,
-  "targeted": false
- },
- {
-  "uid": "youtube:comment:UgzpPE5Ca-DmMQFz9gl4AaABAg",
-  "source": "youtube",
-  "scope": "general",
-  "posted": "2025-02",
-  "group": "none",
-  "action": "unknown",
-  "routes": [
-   "not_stated"
-  ],
-  "areas": [
-   "C_returns_expectations"
-  ],
-  "quote": "Maine rs 3000 mahine ka SIP Kiya hai to kitne din tak rakhna chahie mere abhi 11 mahine ho gaye hain",
-  "spans": {
-   "unmet_need": {
-    "v": "How long to hold the SIP",
-    "s": "kitne din tak rakhna chahie"
-   }
-  },
-  "work": null,
-  "age": null,
-  "amount": null,
-  "first_time": true,
-  "targeted": false
- },
- {
-  "uid": "youtube:comment:UgyVpA_ZFhCVuByBiQJ4AaABAg",
-  "source": "youtube",
-  "scope": "general",
-  "posted": "2024-05",
-  "group": "none",
-  "action": "unknown",
-  "routes": [
-   "returns_disappointment"
-  ],
-  "areas": [
-   "C_returns_expectations"
-  ],
-  "quote": "Sir mana abhi sip suru ki 500 mountly ki but 2 rs loss ho gay asa bhi hota h kya .plz batio",
-  "spans": {
-   "first_time_status": {
-    "v": "likely",
-    "s": "mana abhi sip suru ki"
-   },
-   "in_app_confusion": [
-    {
-     "v": "why_negative",
-     "s": "2 rs loss ho gay asa bhi hota h kya"
-    }
-   ],
-   "experience": [
-    {
-     "v": "negative_returns",
-     "s": "2 rs loss ho gay asa bhi hota h kya"
-    }
-   ],
-   "unmet_need": {
-    "v": "Explanation of why a SIP can show a loss",
-    "s": "asa bhi hota h kya .plz batio"
-   }
-  },
-  "work": null,
-  "age": null,
-  "amount": null,
-  "first_time": true,
-  "targeted": false
- },
- {
-  "uid": "youtube:comment:UgyVptY5NIxBPdkO2sV4AaABAg",
-  "source": "youtube",
-  "scope": "general",
-  "posted": "2025-09",
-  "group": "none",
-  "action": "unknown",
-  "routes": [
-   "returns_disappointment"
-  ],
-  "areas": [
-   "C_returns_expectations"
-  ],
-  "quote": "kiya sip mai agr loss chal rha ho jaha humne investment kiya hai ,kiya humara bhi loss hoga",
-  "spans": {
-   "in_app_confusion": [
-    {
-     "v": "why_negative",
-     "s": "kiya humara bhi loss hoga ??????matlb jo paise hum invest kr rhe hai vo bhi loss ho jayega ???"
-    }
-   ],
-   "experience": [
-    {
-     "v": "negative_returns",
-     "s": "kiya sip mai agr loss chal rha ho jaha humne investment kiya hai"
-    }
-   ],
-   "unmet_need": {
-    "v": "Clarity on whether a loss in SIP means the invested money is lost",
-    "s": "matlb jo paise hum invest kr rhe hai vo bhi loss ho jayega ???"
-   }
-  },
-  "work": null,
-  "age": null,
-  "amount": null,
-  "first_time": true,
-  "targeted": false
- },
- {
-  "uid": "youtube:comment:UgyVsDU6R45OrtaRdDd4AaABAg",
-  "source": "youtube",
-  "scope": "general",
-  "posted": "2026-07",
-  "group": "none",
-  "action": "unknown",
-  "routes": [
-   "not_stated"
-  ],
-  "areas": [
-   "D_cash_flow_flex"
-  ],
-  "quote": "Means amount upgrade cheyyunna pole budhimutt olla timeil downgrade cheyth pokan patumo?",
-  "spans": {
-   "first_time_status": {
-    "v": "likely",
-    "s": "starting ₹500 pinneed ath 1000 aayi pinne 5000 aakiyalum"
-   },
-   "unmet_need": {
-    "v": "Whether SIP can be reduced back to 500 during tight months",
-    "s": "tight situation varumbo atleat 500 sip cheyyan patumo"
-   }
-  },
-  "work": null,
-  "age": null,
-  "amount": null,
-  "first_time": true,
-  "targeted": false
- },
- {
-  "uid": "reddit:post:1irt15n",
-  "source": "reddit_post",
-  "scope": "general",
-  "posted": "2025-02",
-  "group": "none",
-  "action": "unknown",
-  "routes": [
-   "returns_disappointment"
-  ],
-  "areas": [
-   "C_returns_expectations"
-  ],
-  "quote": "Should I stop sips given the current market scenarios?",
-  "spans": {
-   "action_primary": {
-    "v": "considered_stopping",
-    "s": "Should I stop sips given the current market scenarios?"
-   },
-   "trigger_primary": {
-    "v": "market_fall_news",
-    "s": "given the current market scenarios?"
-   },
-   "unmet_need": {
-    "v": "Whether to stop SIPs given mid-cap concentration and market conditions",
-    "s": "Should I stop sips given the current market scenarios?"
-   }
-  },
-  "work": null,
-  "age": null,
-  "amount": 30000.0,
-  "first_time": true,
-  "targeted": false
- },
- {
-  "uid": "reddit:post:1irw00f",
-  "source": "reddit_post",
-  "scope": "general",
-  "posted": "2025-02",
-  "group": "none",
-  "action": "unknown",
-  "routes": [
-   "not_stated"
-  ],
-  "areas": [
-   "C_returns_expectations"
-  ],
-  "quote": "I am new to investing and started in June of last year with a monthly SIP of 15,000 and a lump sum investment at the beginning.",
-  "spans": {
-   "first_time_status": {
-    "v": "stated",
-    "s": "I am new to investing"
-   },
-   "unmet_need": {
-    "v": "Whether their portfolio is normal and if changes are needed",
-    "s": "Could you please suggest whether this is normal or if I should consider making any changes?"
-   }
-  },
-  "work": null,
-  "age": 25,
-  "amount": null,
-  "first_time": true,
-  "targeted": false
- },
- {
-  "uid": "reddit:comment:ldx45zd",
-  "source": "reddit_comment",
-  "scope": "general",
-  "posted": "2024-07",
-  "group": "none",
-  "action": "started_new",
-  "routes": [
-   "not_stated"
-  ],
-  "areas": [
-   "C_returns_expectations",
-   "D_cash_flow_flex"
-  ],
-  "quote": "started an SIP of 1000 Rs. last week this month in Parag Parikh Flexi cap fund after a long research.",
-  "spans": {
-   "action_primary": {
-    "v": "continued",
-    "s": "Would like to know if I should continue with 1000 Rs or should I increase the amount or not."
-   },
-   "first_time_status": {
-    "v": "stated",
-    "s": "I am into the first month of my job as well."
-   },
-   "unmet_need": {
-    "v": "Wants guidance on whether to keep or raise the SIP amount",
-    "s": "Would like to know if I should continue with 1000 Rs or should I increase the amount or not."
-   }
-  },
-  "work": "salaried",
-  "age": 22,
-  "amount": 1000.0,
-  "first_time": true,
-  "targeted": false
- },
- {
-  "uid": "reddit:comment:ldz1fea",
-  "source": "reddit_comment",
-  "scope": "general",
-  "posted": "2024-07",
-  "group": "none",
-  "action": "unknown",
-  "routes": [
-   "not_stated"
-  ],
-  "areas": [
-   "C_returns_expectations",
-   "E_sip_control"
-  ],
-  "quote": "In the app it shows only the bal right now how the value of my money is increased and nothing else.",
-  "spans": {
-   "first_time_status": {
-    "v": "likely",
-    "s": "It's been six months form when I started SIPs."
-   },
-   "in_app_confusion": [
-    {
-     "v": "returns_calculation",
-     "s": "how the value of my money is increased and nothing else."
-    },
-    {
-     "v": "skip_pause_cancel",
-     "s": "like till how many years I have to pay the SIP amount or how can I can withdraw from this account in case of emergency"
-    }
-   ],
-   "start_reason": [
-    {
-     "v": "friend_colleague",
-     "s": "I started this because my frnd asked me as he became a distributor for nj health."
-    }
-   ],
-   "experience": [
-    {
-     "v": "confusing_numbers",
-     "s": "In the app it shows only the bal right now how the value of my money is increased and nothing else."
-    }
-   ],
-   "unmet_need": {
-    "v": "Wants to understand SIP changes, tenure and withdrawal, and how returns are computed in the app",
-    "s": "where can I know the details how can I increase or decrease the the SIP"
-   }
-  },
-  "work": null,
-  "age": 19,
-  "amount": null,
-  "first_time": true,
-  "targeted": false
- },
- {
-  "uid": "reddit:comment:ldzvkto",
-  "source": "reddit_comment",
-  "scope": "general",
-  "posted": "2024-07",
-  "group": "none",
-  "action": "unknown",
-  "routes": [
-   "not_stated"
-  ],
-  "areas": [
-   "C_returns_expectations"
-  ],
-  "quote": "I started SIP just this month, mostly UTI Nifty 50 and PPFAS.",
-  "spans": {
-   "first_time_status": {
-    "v": "likely",
-    "s": "I started SIP just this month"
-   },
-   "unmet_need": {
-    "v": "Wants a view on whether now is a good time to start and whether to wait to invest a lumpsum",
-    "s": "I am not sure if I should wait a few months for correction!"
-   }
-  },
-  "work": null,
-  "age": null,
-  "amount": 25000.0,
-  "first_time": true,
-  "targeted": false
- },
- {
-  "uid": "reddit:comment:hskkvoo",
-  "source": "reddit_comment",
-  "scope": "general",
-  "posted": "2022-01",
-  "group": "none",
-  "action": "unknown",
-  "routes": [
-   "not_stated"
-  ],
-  "areas": [
-   "E_sip_control"
-  ],
-  "quote": "So one can have SIPs and keep changing SIP amounts - pause/resume - assuming it’s allowed(?)",
-  "spans": {
-   "first_time_status": {
-    "v": "likely",
-    "s": "Planning to but have never done SIPs"
-   },
-   "in_app_confusion": [
-    {
-     "v": "skip_pause_cancel",
-     "s": "pause/resume - assuming it’s allowed(?)"
-    }
-   ],
-   "unmet_need": {
-    "v": "Wants to know whether SIP amounts can be changed and SIPs paused or resumed",
-    "s": "So one can have SIPs and keep changing SIP amounts - pause/resume - assuming it’s allowed(?)"
-   }
-  },
-  "work": null,
-  "age": null,
-  "amount": null,
-  "first_time": true,
-  "targeted": false
- },
- {
-  "uid": "reddit:comment:hskuo79",
-  "source": "reddit_comment",
-  "scope": "general",
-  "posted": "2022-01",
-  "group": "cont",
-  "action": "increased_or_stepped_up",
-  "routes": [
-   "not_stated"
-  ],
-  "areas": [],
-  "quote": null,
-  "spans": {
-   "action_primary": {
-    "v": "increased_or_stepped_up",
-    "s": "planning to up that once I get salary"
-   },
-   "first_time_status": {
-    "v": "not",
-    "s": "Also in last 9-10 months of my investment"
-   },
-   "experience": [
-    {
-     "v": "positive",
-     "s": "I have seen S&p give better absolute percentage return"
-    }
-   ]
-  },
-  "work": "salaried",
-  "age": null,
-  "amount": 10000.0,
-  "first_time": true,
-  "targeted": false
- },
- {
-  "uid": "reddit:post:1lbdsc1",
-  "source": "reddit_post",
-  "scope": "general",
-  "posted": "2025-06",
-  "group": "none",
-  "action": "unknown",
-  "routes": [
-   "not_stated"
-  ],
-  "areas": [
-   "A_first_debit_and_autopay"
-  ],
-  "quote": "New to investing, started investing in MFs just a couple of months back.",
-  "spans": {
-   "first_time_status": {
-    "v": "stated",
-    "s": "New to investing, started investing in MFs just a couple of months back."
-   },
-   "in_app_confusion": [
-    {
-     "v": "sip_date_first_debit",
-     "s": "Which is better investing lumsum in 1 MF each month or doing SIP of fixed amount in all above MFs."
-    }
-   ],
-   "unmet_need": {
-    "v": "Whether lumpsum monthly investing or fixed SIP across funds is better",
-    "s": "Which is better investing lumsum in 1 MF each month or doing SIP of fixed amount in all above MFs."
-   }
-  },
-  "work": null,
-  "age": null,
-  "amount": null,
-  "first_time": true,
-  "targeted": false
- },
- {
-  "uid": "reddit:post:1npxuty",
-  "source": "reddit_post",
-  "scope": "general",
-  "posted": "2025-09",
-  "group": "none",
-  "action": "unknown",
-  "routes": [
-   "not_stated"
-  ],
-  "areas": [
-   "D_cash_flow_flex"
-  ],
-  "quote": "want to have 1 single fund that I can save and redeem in 1 year… please advise",
-  "spans": {
-   "first_time_status": {
-    "v": "likely",
-    "s": "Started small…"
-   },
-   "unmet_need": {
-    "v": "Wants one fund to save in and redeem within a year, and guidance on best use of a 7.5k SIP",
-    "s": "want to have 1 single fund that I can save and redeem in 1 year… please advise"
-   }
-  },
-  "work": null,
-  "age": null,
-  "amount": null,
-  "first_time": true,
-  "targeted": false
- },
- {
-  "uid": "reddit:post:1ogri1n",
-  "source": "reddit_post",
-  "scope": "general",
-  "posted": "2025-10",
-  "group": "none",
-  "action": "started_new",
-  "routes": [
-   "not_stated"
-  ],
-  "areas": [
-   "E_sip_control"
-  ],
-  "quote": "I have 5L lumpsum amnt with me now and for every 6months the amnt gets back into my savings account",
-  "spans": {
-   "action_primary": {
-    "v": "switched_fund",
-    "s": "did some re-allocation of my funds a bit"
-   },
-   "first_time_status": {
-    "v": "stated",
-    "s": "I have just started my SIP"
-   },
-   "in_app_confusion": [
-    {
-     "v": "skip_pause_cancel",
-     "s": "i will remove it later or not"
-    }
-   ],
-   "unmet_need": {
-    "v": "Wants a review of planned SIP allocation and whether to shift lumpsum into arbitrage or multi-asset funds",
-    "s": "Thoughts ?"
-   }
-  },
-  "work": null,
-  "age": 24,
-  "amount": 20000.0,
-  "first_time": true,
-  "targeted": false
- },
- {
-  "uid": "tradingqna:post:313261",
-  "source": "tradingqna",
-  "scope": "general",
-  "posted": "2021-07",
-  "group": "none",
-  "action": "unknown",
-  "routes": [
-   "not_stated"
-  ],
-  "areas": [
-   "D_cash_flow_flex"
-  ],
-  "quote": "How much money should i pay every month as SIP if I'm 20 year old college student?",
-  "spans": {
-   "first_time_status": {
-    "v": "likely",
-    "s": "How much money should i pay every month as SIP if I'm 20 year old college student?"
-   },
-   "unmet_need": {
-    "v": "Know how much to put into a SIP as a student",
-    "s": "How much money should i pay every month as SIP if I'm 20 year old college student?"
-   }
-  },
-  "work": "student",
-  "age": 20,
-  "amount": null,
-  "first_time": true,
-  "targeted": false
- },
- {
-  "uid": "reddit:comment:md0z99f",
-  "source": "reddit_comment",
-  "scope": "general",
-  "posted": "2025-02",
-  "group": "none",
-  "action": "unknown",
-  "routes": [
-   "not_stated"
-  ],
-  "areas": [
-   "C_returns_expectations"
-  ],
-  "quote": "Just tell me if I should resume my SIPs in motilal midcap and quant.",
-  "spans": {
-   "action_primary": {
-    "v": "considered_stopping",
-    "s": "Just tell me if I should resume my SIPs in motilal midcap and quant."
-   },
-   "first_time_status": {
-    "v": "likely",
-    "s": "yes I am a noob. I accept it."
-   },
-   "unmet_need": {
-    "v": "Decide whether to resume paused SIPs in two funds that are negative",
-    "s": "Just tell me if I should resume my SIPs in motilal midcap and quant."
-   }
-  },
-  "work": null,
-  "age": null,
-  "amount": "unknown",
-  "first_time": true,
-  "targeted": false
- },
- {
-  "uid": "reddit:post:1771ti6",
-  "source": "reddit_post",
-  "scope": "general",
-  "posted": "2023-10",
-  "group": "none",
-  "action": "unknown",
-  "routes": [
-   "not_stated"
-  ],
-  "areas": [
-   "C_returns_expectations"
-  ],
-  "quote": "what one should invest in when the marker is super low or during a crash (as experienced during the covid times)",
-  "spans": {
-   "first_time_status": {
-    "v": "stated",
-    "s": "Just started investing in equity and mutual funds 4 months back"
-   },
-   "experience": [
-    {
-     "v": "positive",
-     "s": "while my investmemts are going good at the moment"
-    }
-   ],
-   "unmet_need": {
-    "v": "Wants to know what to invest in when the market crashes",
-    "s": "what one should invest in when the marker is super low or during a crash"
-   }
-  },
-  "work": null,
-  "age": null,
-  "amount": null,
-  "first_time": true,
-  "targeted": false
- },
- {
-  "uid": "reddit:post:177j3f5",
-  "source": "reddit_post",
-  "scope": "general",
-  "posted": "2023-10",
-  "group": "cont",
-  "action": "increased_or_stepped_up",
-  "routes": [
-   "not_stated"
-  ],
-  "areas": [],
-  "quote": "I need a financial advice as if are these MF right to invest in? Also I am looking to increase my investments by 2k every month",
-  "spans": {
-   "unmet_need": {
-    "v": "Wants advice on whether chosen mutual funds are right and which funds to add with extra 2k monthly",
-    "s": "I need a financial advice as if are these MF right to invest in?"
-   }
-  },
-  "work": "student",
-  "age": null,
-  "amount": 6000.0,
-  "first_time": true,
-  "targeted": false
- },
- {
-  "uid": "youtube:comment:UgwR1izPe2MV-5MsBrN4AaABAg",
-  "source": "youtube",
-  "scope": "general",
-  "posted": "2025-10",
-  "group": "none",
-  "action": "unknown",
-  "routes": [
-   "not_stated"
-  ],
-  "areas": [
-   "B_money_status_and_resolution"
-  ],
-  "quote": "agar mai large cap mai jakar icici large cap mai sip 1000 karunga toh wo multiple company mai invest hoga ya fhir bas icici mai hota rahega.",
-  "spans": {
-   "in_app_confusion": [
-    {
-     "v": "where_money_went",
-     "s": "agar mai large cap mai jakar icici large cap mai sip 1000 karunga toh wo multiple company mai invest hoga ya fhir bas icici mai hota rahega."
-    }
-   ],
-   "unmet_need": {
-    "v": "Understand whether a large cap fund invests across multiple companies or only the fund house",
-    "s": "agar mai large cap mai jakar icici large cap mai sip 1000 karunga toh wo multiple company mai invest hoga ya fhir bas icici mai hota rahega."
-   }
-  },
-  "work": null,
-  "age": null,
-  "amount": null,
-  "first_time": true,
-  "targeted": false
- },
- {
-  "uid": "reddit:comment:lo7gxwt",
-  "source": "reddit_comment",
-  "scope": "general",
-  "posted": "2024-09",
-  "group": "consider",
-  "action": "considered_stopping",
-  "routes": [
-   "returns_disappointment"
-  ],
-  "areas": [
-   "C_returns_expectations"
-  ],
-  "quote": null,
-  "spans": {
-   "action_primary": {
-    "v": "considered_stopping",
-    "s": "shld I switch or am I judging too early?"
-   },
-   "trigger_primary": {
-    "v": "returns_disappointing",
-    "s": "performance with other funds is somewhat similar, I feel like Tata, axis or nippon small cap fund seem to be better and stable"
-   },
-   "first_time_status": {
-    "v": "stated",
-    "s": "I'm still a beginner exploring around"
-   },
-   "unmet_need": {
-    "v": "wants to know whether to switch small cap fund or wait",
-    "s": "shld I switch or am I judging too early?"
-   }
-  },
-  "work": null,
-  "age": null,
-  "amount": "unknown",
-  "first_time": true,
-  "targeted": false
- },
- {
-  "uid": "reddit:post:1pe1439",
-  "source": "reddit_post",
-  "scope": "general",
-  "posted": "2025-12",
-  "group": "none",
-  "action": "switched_fund",
-  "routes": [
-   "returns_disappointment"
-  ],
-  "areas": [
-   "C_returns_expectations"
-  ],
-  "quote": "It's been doing poorly over the last 4-5 months and I understand one should not look at returns for periods < 5 years",
-  "spans": {
-   "first_time_status": {
-    "v": "likely",
-    "s": "I entered the investing world recently and chose Motilal Oswal Flexi cap fund."
-   },
-   "experience": [
-    {
-     "v": "flat",
-     "s": "It's been doing poorly over the last 4-5 months"
-    }
-   ],
-   "unmet_need": {
-    "v": "Wants to compare flexi cap funds for a new long-term SIP",
-    "s": "how would the MO flexi cap compare with HDFC flexi cap and Parag Parikh flexi cap"
-   }
-  },
-  "work": null,
-  "age": null,
-  "amount": "unknown",
-  "first_time": true,
-  "targeted": false
- },
- {
-  "uid": "youtube:comment:UgzRBlNI8lG47bddUfN4AaABAg",
-  "source": "youtube",
-  "scope": "general",
-  "posted": "2025-09",
-  "group": "none",
-  "action": "unknown",
-  "routes": [
-   "not_stated"
-  ],
-  "areas": [
-   "C_returns_expectations"
-  ],
-  "quote": "Loss bhi hota hai kya isme",
-  "spans": {
-   "unmet_need": {
-    "v": "Wants to know whether SIP investments can lose money",
-    "s": "Loss bhi hota hai kya isme"
-   }
-  },
-  "work": null,
-  "age": null,
-  "amount": null,
-  "first_time": true,
-  "targeted": false
- },
- {
-  "uid": "reddit:post:1gjyufr",
-  "source": "reddit_post",
-  "scope": "general",
-  "posted": "2024-11",
-  "group": "none",
-  "action": "unknown",
-  "routes": [
-   "returns_disappointment"
-  ],
-  "areas": [
-   "C_returns_expectations"
-  ],
-  "quote": "I'm being skeptical about holding this, is there a recovery starting soon?",
-  "spans": {
-   "action_primary": {
-    "v": "considered_stopping",
-    "s": "I'm being skeptical about holding this"
-   },
-   "trigger_primary": {
-    "v": "market_fall_news",
-    "s": "now that the market is crashing day by day"
-   },
-   "first_time_status": {
-    "v": "likely",
-    "s": "So I have started SIP in an Index Mutual fund, it's been 6 months now"
-   },
-   "in_app_confusion": [
-    {
-     "v": "why_negative",
-     "s": "Will this ever recover?"
-    }
-   ],
-   "experience": [
-    {
-     "v": "negative_returns",
-     "s": "This has been my Index Mutual Fund SIP portfolio graph. Will this ever recover?"
-    }
-   ],
-   "unmet_need": {
-    "v": "Wants to know whether a falling index SIP will recover and whether to keep holding it",
-    "s": "Will this ever recover?"
-   }
-  },
-  "work": null,
-  "age": null,
-  "amount": "unknown",
-  "first_time": true,
-  "targeted": false
- },
- {
-  "uid": "reddit:post:1it8ubs",
-  "source": "reddit_post",
-  "scope": "general",
-  "posted": "2025-02",
-  "group": "none",
-  "action": "unknown",
-  "routes": [
-   "not_stated"
-  ],
-  "areas": [
-   "C_returns_expectations"
-  ],
-  "quote": "I’m very new to mutual funds, recently I sold my land and I want to diversify my assets",
-  "spans": {
-   "first_time_status": {
-    "v": "stated",
-    "s": "I’m very new to mutual funds"
-   },
-   "unmet_need": {
-    "v": "Wants to know whether to invest a 1 crore lump sum now or wait, and whether to use an advisor or PMS",
-    "s": "is it a good time to go lump sum right now or wait for another market correction"
-   }
-  },
-  "work": null,
-  "age": null,
-  "amount": null,
-  "first_time": true,
-  "targeted": false
- },
- {
-  "uid": "reddit:post:1fxa4nt",
-  "source": "reddit_post",
-  "scope": "general",
-  "posted": "2024-10",
-  "group": "consider",
-  "action": "considered_stopping",
-  "routes": [
-   "returns_disappointment"
-  ],
-  "areas": [
-   "C_returns_expectations"
-  ],
-  "quote": "it's always down...always red! Should I continue this SIP?",
-  "spans": {
-   "action_primary": {
-    "v": "considered_stopping",
-    "s": "Should I continue this SIP?"
-   },
-   "trigger_primary": {
-    "v": "returns_disappointing",
-    "s": "But, it's always down...always red!"
-   },
-   "first_time_status": {
-    "v": "likely",
-    "s": "Have been investing for 3 months which I know is nothing!"
-   },
-   "experience": [
-    {
-     "v": "negative_returns",
-     "s": "But, it's always down...always red!"
-    }
-   ],
-   "unmet_need": {
-    "v": "Wants to know whether to keep the SIP going despite losses or move it to another fund",
-    "s": "Should I continue this SIP? In case if I withdraw, which SIP should I transfer the amount in!"
-   }
-  },
-  "work": null,
-  "age": null,
-  "amount": "unknown",
-  "first_time": true,
-  "targeted": false
- },
- {
-  "uid": "reddit:post:1r7yncv",
-  "source": "reddit_post",
-  "scope": "general",
-  "posted": "2026-02",
-  "group": "none",
-  "action": "unknown",
-  "routes": [
-   "not_stated"
-  ],
-  "areas": [
-   "D_cash_flow_flex"
-  ],
-  "quote": null,
-  "spans": {
-   "action_primary": {
-    "v": "continued",
-    "s": "I have started a few SIPs in which I am putting in 50k every month"
-   },
-   "trigger_primary": {
-    "v": "none",
-    "s": "I have started a few SIPs in which I am putting in 50k every month"
-   },
-   "first_time_status": {
-    "v": "stated",
-    "s": "I(25M) recently started my first job"
-   },
-   "unmet_need": {
-    "v": "Wants to know if the 50k monthly SIP amount is sustainable after moving out and a raise, and whether to keep money outside SIPs",
-    "s": "whether this amount is going to be possible to sustain with my increased expenses and salary post july. Should I also keep some money outside of SIPs?"
-   }
-  },
-  "work": "salaried",
-  "age": 25.0,
-  "amount": 50000.0,
-  "first_time": true,
-  "targeted": false
- },
- {
-  "uid": "reddit:post:1l2laua",
-  "source": "reddit_post",
-  "scope": "general",
-  "posted": "2025-06",
-  "group": "none",
-  "action": "unknown",
-  "routes": [
-   "returns_disappointment"
-  ],
-  "areas": [
-   "C_returns_expectations"
-  ],
-  "quote": "Started investing from 2022, I know rn my portfolio looks like an Index fund, but it's painful to cut losses, Please suggest me some drastic changes",
-  "spans": {
-   "action_primary": {
-    "v": "considered_stopping",
-    "s": "it's painful to cut losses, Please suggest me some drastic changes"
-   },
-   "trigger_primary": {
-    "v": "returns_disappointing",
-    "s": "it's painful to cut losses"
-   },
-   "experience": [
-    {
-     "v": "negative_returns",
-     "s": "it's painful to cut losses"
-    }
-   ],
-   "unmet_need": {
-    "v": "Wants drastic portfolio changes because losses are painful to hold",
-    "s": "Please suggest me some drastic changes"
-   }
-  },
-  "work": null,
-  "age": 20,
-  "amount": "unknown",
-  "first_time": true,
-  "targeted": false
- },
- {
-  "uid": "reddit:post:1971jc3",
-  "source": "reddit_post",
-  "scope": "general",
-  "posted": "2024-01",
-  "group": "none",
-  "action": "unknown",
-  "routes": [
-   "payment_lapse"
-  ],
-  "areas": [
-   "A_first_debit_and_autopay"
-  ],
-  "quote": "I notice the invested amount is ₹10,000 though I only allocated ₹5000 for mutual funds. My bank statement also doesn't show the extra ₹5000. Is it a glitch?",
-  "spans": {
-   "first_time_status": {
-    "v": "likely",
-    "s": "I started a 5000 SIP in HDFC nifty 50 this month."
-   },
-   "in_app_confusion": [
-    {
-     "v": "sip_date_first_debit",
-     "s": "I notice the invested amount is ₹10,000 though I only allocated ₹5000 for mutual funds."
-    }
-   ],
-   "experience": [
-    {
-     "v": "payment_problem",
-     "s": "I notice the invested amount is ₹10,000 though I only allocated ₹5000 for mutual funds."
-    }
-   ],
-   "unmet_need": {
-    "v": "Wants to know whether the extra Rs 5000 debit is a glitch",
-    "s": "Is it a glitch?"
-   }
-  },
-  "work": null,
-  "age": null,
-  "amount": null,
-  "first_time": true,
-  "targeted": false
- },
- {
-  "uid": "reddit:post:1t0gmoz",
-  "source": "reddit_post",
-  "scope": "general",
-  "posted": "2026-05",
-  "group": "none",
-  "action": "unknown",
-  "routes": [
-   "returns_disappointment"
-  ],
-  "areas": [
-   "C_returns_expectations"
-  ],
-  "quote": "It’s completely red, need suggestions on which stocks to continue  and from which stocks to exit",
-  "spans": {
-   "action_primary": {
-    "v": "considered_stopping",
-    "s": "need suggestions on which stocks to continue  and from which stocks to exit"
-   },
-   "trigger_primary": {
-    "v": "returns_disappointing",
-    "s": "It’s completely red"
-   },
-   "first_time_status": {
-    "v": "stated",
-    "s": "I am very new to the Indian stock market"
-   },
-   "start_reason": [
-    {
-     "v": "finfluencer_media",
-     "s": "some YouTube videos suggestions"
-    }
-   ],
-   "experience": [
-    {
-     "v": "negative_returns",
-     "s": "It’s completely red, need suggestions on which stocks to continue  and from which stocks to exit"
-    }
-   ],
-   "unmet_need": {
-    "v": "Which stocks to keep or exit and which MFs or ETFs to pick",
-    "s": "Can you please suggest any top 3/5 MFs or ETFs"
-   }
-  },
-  "work": null,
-  "age": null,
-  "amount": "unknown",
-  "first_time": true,
-  "targeted": false
- },
- {
-  "uid": "reddit:post:1t0l20v",
-  "source": "reddit_post",
-  "scope": "general",
-  "posted": "2026-05",
-  "group": "none",
-  "action": "unknown",
-  "routes": [
-   "not_stated"
-  ],
-  "areas": [
-   "D_cash_flow_flex"
-  ],
-  "quote": "I am left with around ₹8,500. How should I invest this money? My goals are to own a house and a car by the age of 27",
-  "spans": {
-   "first_time_status": {
-    "v": "likely",
-    "s": "Yesterday, I received my first salary."
-   },
-   "start_reason": [
-    {
-     "v": "first_salary_or_income",
-     "s": "Yesterday, I received my first salary."
-    }
-   ],
-   "unmet_need": {
-    "v": "Safe, practical plan for investing about 8,500 rupees monthly toward house, car and marriage goals",
-    "s": "Please suggest a safe and practical plan suitable for my age."
-   }
-  },
-  "work": "salaried",
-  "age": 22,
-  "amount": null,
-  "first_time": true,
-  "targeted": false
- },
- {
-  "uid": "youtube:comment:UgwClidkViduwFKysDl4AaABAg",
-  "source": "youtube",
-  "scope": "general",
-  "posted": "2024-07",
-  "group": "consider",
-  "action": "considered_stopping",
-  "routes": [
-   "not_stated"
-  ],
-  "areas": [
-   "A_first_debit_and_autopay",
-   "E_sip_control"
-  ],
-  "quote": "Na Nippon large cap fund la initial investment ah 10k potu start panen but enoda investment la antha amnt kaatamatenthu athu enoda sip la add aaguma aagatha please sollunga bro",
-  "spans": {
-   "in_app_confusion": [
-    {
-     "v": "sip_date_first_debit",
-     "s": "enoda investment la antha amnt kaatamatenthu athu enoda sip la add aaguma aagatha please sollunga bro"
-    }
-   ],
-   "unmet_need": {
-    "v": "Wants to know whether the lumpsum amount counts toward the SIP",
-    "s": "athu enoda sip la add aaguma aagatha please sollunga bro"
-   }
-  },
-  "work": null,
-  "age": null,
-  "amount": "unknown",
-  "first_time": true,
-  "targeted": false
- },
- {
-  "uid": "reddit:post:1m9l6li",
-  "source": "reddit_post",
-  "scope": "general",
-  "posted": "2025-07",
-  "group": "none",
-  "action": "started_new",
-  "routes": [
-   "not_stated"
-  ],
-  "areas": [
-   "C_returns_expectations"
-  ],
-  "quote": "I’m torn between **Nippon, Quant, and Bandhan Small Cap Fund** – is any one clearly better or more consistent?",
-  "spans": {
-   "action_primary": {
-    "v": "started_new",
-    "s": "I’ve begun a monthly SIP of ₹5,000"
-   },
-   "first_time_status": {
-    "v": "likely",
-    "s": "Just getting started with mutual fund investing."
-   },
-   "unmet_need": {
-    "v": "Decide whether to keep, replace or delete funds, and choose between similar small cap funds",
-    "s": "Whether I should **keep, replace, or delete** any fund"
-   }
-  },
-  "work": "student",
-  "age": 19.0,
-  "amount": 5000.0,
   "first_time": true,
   "targeted": false
  }

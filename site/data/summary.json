@@ -1,6 +1,6 @@
 {
  "title": "Discovery Engine: First-Year SIP Continuity Findings",
- "git_sha": "fbe532e",
+ "git_sha": "7a43879",
  "answer_in_five_lines": [
   "**Most of what we collected is general SIP talk. The problem-specific core is small and we analyse it separately:** 32,868 early-journey episodes (first-time investors, or within 12 months of starting), of which **684 are stop stories, 405 are considering stopping, and 1156 kept going**.",
   "**Losses make first-year investors *think* about stopping; mechanics make them *actually* stop.** Among those considering stopping, 55% describe negative returns. Among those who stopped, the most common routes are payment lapse (35%) and app friction (30%); returns disappointment is 21%.",

@@ -27,3 +27,4 @@ site/.next/
 site/.env*
 .env*
 *.log
+*.tsbuildinfo

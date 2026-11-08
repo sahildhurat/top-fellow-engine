@@ -196,8 +196,8 @@ export async function POST(request: NextRequest) {
     try {
       const parsedArray = JSON.parse(gateRawText.replace(/```json|```/g, "").trim());
       gateParsed = Array.isArray(parsedArray) ? parsedArray[0] : parsedArray;
-    } catch {
-      console.error("[try_api] Gate response JSON parsing failed");
+    } catch (err) {
+      console.error("[try_api] Gate parse error:", err);
       gateParsed = { rel: "n", type: "other", sip: 0, ft: "u" };
     }
 
@@ -254,8 +254,8 @@ export async function POST(request: NextRequest) {
         try {
           const parsedArray = JSON.parse(extRawText.replace(/```json|```/g, "").trim());
           extParsed = Array.isArray(parsedArray) ? parsedArray[0] : parsedArray;
-        } catch {
-          console.error("[try_api] Extraction response JSON parsing failed");
+        } catch (err) {
+          console.error("[try_api] Extraction parse error:", err);
         }
 
         // Post-processing: Rules H1, H2, H4, H5, H11 & quote check
@@ -391,8 +391,8 @@ export async function POST(request: NextRequest) {
       grounded_spans: groundedSpans,
       latency_ms: latencyMs,
     });
-  } catch {
-    console.error("[try_api] Unexpected internal processing failure");
+  } catch (error: any) {
+    console.error("[try_api] Unexpected error:", error);
     return NextResponse.json(
       { error: "An unexpected error occurred during processing." },
       { status: 500 }

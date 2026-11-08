@@ -1,0 +1,547 @@
+[
+ {
+  "uid": "reddit:comment:lye2vsv",
+  "source": "reddit_comment",
+  "scope": "general",
+  "posted": "2024-11",
+  "group": "none",
+  "action": "unknown",
+  "routes": [
+   "not_stated"
+  ],
+  "areas": [
+   "C_returns_expectations"
+  ],
+  "quote": "Thank you for sharing this info. Also wanted to know if the same applies to etf as well. I have just started investing in stocks and etfs.",
+  "spans": {
+   "first_time_status": {
+    "v": "stated",
+    "s": "I have just started investing in stocks and etfs."
+   },
+   "unmet_need": {
+    "v": "Asks whether the same SIP stop/withdraw advice applies to ETFs",
+    "s": "Wanted to know if the same applies to etf as well."
+   }
+  },
+  "work": null,
+  "age": null,
+  "amount": "unknown",
+  "first_time": true,
+  "targeted": true
+ },
+ {
+  "uid": "reddit:comment:gwwr0yy",
+  "source": "reddit_comment",
+  "scope": "general",
+  "posted": "2021-05",
+  "group": "consider",
+  "action": "considered_stopping",
+  "routes": [
+   "not_stated"
+  ],
+  "areas": [
+   "C_returns_expectations"
+  ],
+  "quote": null,
+  "spans": {
+   "first_time_status": {
+    "v": "stated",
+    "s": "I am new to investing."
+   },
+   "unmet_need": {
+    "v": "Wants to limit maximum loss while learning as a beginner long-term investor",
+    "s": "I want to limit my max loss while I am learning to be a long-term investor."
+   }
+  },
+  "work": null,
+  "age": null,
+  "amount": "unknown",
+  "first_time": true,
+  "targeted": true
+ },
+ {
+  "uid": "reddit:comment:osvsp1q",
+  "source": "reddit_comment",
+  "scope": "general",
+  "posted": "2026-06",
+  "group": "cont",
+  "action": "restarted",
+  "routes": [
+   "not_stated"
+  ],
+  "areas": [],
+  "quote": "i stopped investing after 2-3 months after that due to some issues. Just started again now so looking for advise",
+  "spans": {
+   "unmet_need": {
+    "v": "Advice on which mutual funds to invest in after restarting SIPs",
+    "s": "Just started again now so looking for advise"
+   }
+  },
+  "work": null,
+  "age": null,
+  "amount": "unknown",
+  "first_time": true,
+  "targeted": true
+ },
+ {
+  "uid": "reddit:comment:lsgs78o",
+  "source": "reddit_comment",
+  "scope": "general",
+  "posted": "2024-10",
+  "group": "none",
+  "action": "unknown",
+  "routes": [
+   "returns_disappointment"
+  ],
+  "areas": [
+   "C_returns_expectations"
+  ],
+  "quote": "It has been falling for a few months and you already started panicking? Chill it will come back don't stop investing.",
+  "spans": {
+   "first_time_status": {
+    "v": "likely",
+    "s": "started first SIP in MON100 ETF (motilal oswal Nasdaq 100) but..."
+   },
+   "experience": [
+    {
+     "v": "negative_returns",
+     "s": "It has been falling for a few months"
+    }
+   ]
+  },
+  "work": null,
+  "age": null,
+  "amount": "unknown",
+  "first_time": true,
+  "targeted": true
+ },
+ {
+  "uid": "reddit:comment:nizvmp1",
+  "source": "reddit_comment",
+  "scope": "general",
+  "posted": "2025-10",
+  "group": "none",
+  "action": "unknown",
+  "routes": [
+   "not_stated"
+  ],
+  "areas": [
+   "C_returns_expectations"
+  ],
+  "quote": "Just started earning. Invested ₹2K in SIP this month, planning ₹3K/month. Am I on the right track?",
+  "spans": {
+   "first_time_status": {
+    "v": "likely",
+    "s": "Just started earning. Invested ₹2K in SIP this month"
+   },
+   "start_reason": [
+    {
+     "v": "first_salary_or_income",
+     "s": "Just started earning."
+    }
+   ],
+   "unmet_need": {
+    "v": "Wants reassurance that the SIP plan is on the right track",
+    "s": "Am I on the right track?"
+   }
+  },
+  "work": null,
+  "age": null,
+  "amount": 2000.0,
+  "first_time": true,
+  "targeted": true
+ },
+ {
+  "uid": "youtube:comment:Ugw5LTD2ueOxXBUdt1Z4AaABAg",
+  "source": "youtube",
+  "scope": "general",
+  "posted": "unknown",
+  "group": "none",
+  "action": "unknown",
+  "routes": [
+   "not_stated"
+  ],
+  "areas": [
+   "A_first_debit_and_autopay"
+  ],
+  "quote": "क्या Mutual Fund मे Miss हुई SIP को Pay कर सकते है?",
+  "spans": {
+   "in_app_confusion": [
+    {
+     "v": "sip_date_first_debit",
+     "s": "क्या Mutual Fund मे Miss हुई SIP को Pay कर सकते है?"
+    }
+   ],
+   "unmet_need": {
+    "v": "Wants to know whether a missed SIP instalment can be paid",
+    "s": "Miss हुई SIP को Pay कर सकते है?"
+   }
+  },
+  "work": null,
+  "age": null,
+  "amount": "unknown",
+  "first_time": true,
+  "targeted": true
+ },
+ {
+  "uid": "reddit:comment:kh0udp3",
+  "source": "reddit_comment",
+  "scope": "general",
+  "posted": "2024-01",
+  "group": "none",
+  "action": "unknown",
+  "routes": [
+   "payment_lapse"
+  ],
+  "areas": [
+   "A_first_debit_and_autopay",
+   "B_money_status_and_resolution"
+  ],
+  "quote": "My first SIP got failed and units are not allocated.",
+  "spans": {
+   "first_time_status": {
+    "v": "stated",
+    "s": "My first SIP got failed"
+   },
+   "in_app_confusion": [
+    {
+     "v": "order_status_units",
+     "s": "units are not allocated."
+    }
+   ],
+   "experience": [
+    {
+     "v": "payment_problem",
+     "s": "My first SIP got failed and units are not allocated."
+    }
+   ],
+   "unmet_need": {
+    "v": "Resolution of failed SIP instalment and unallocated units",
+    "s": "My first SIP got failed and units are not allocated."
+   }
+  },
+  "work": null,
+  "age": null,
+  "amount": "unknown",
+  "first_time": true,
+  "targeted": true
+ },
+ {
+  "uid": "reddit:comment:i1run05",
+  "source": "reddit_comment",
+  "scope": "general",
+  "posted": "2022-03",
+  "group": "none",
+  "action": "unknown",
+  "routes": [
+   "returns_disappointment"
+  ],
+  "areas": [
+   "C_returns_expectations"
+  ],
+  "quote": "That's just fuckin great. I just started my investment journey with PPFAS and MO SP500 and both are boned. Any suggestions on what to do? Do I look for alternatives?",
+  "spans": {
+   "first_time_status": {
+    "v": "stated",
+    "s": "I just started my investment journey"
+   },
+   "experience": [
+    {
+     "v": "negative_returns",
+     "s": "both are boned"
+    }
+   ],
+   "unmet_need": {
+    "v": "Wants suggestions on what to do about SIPs in funds that were paused or are facing liquidity problems",
+    "s": "Any suggestions on what to do? Do I look for alternatives?"
+   }
+  },
+  "work": null,
+  "age": null,
+  "amount": "unknown",
+  "first_time": true,
+  "targeted": true
+ },
+ {
+  "uid": "youtube:comment:UgxtMSn2YBV6DnLywAx4AaABAg",
+  "source": "youtube",
+  "scope": "general",
+  "posted": "unknown",
+  "group": "none",
+  "action": "unknown",
+  "routes": [
+   "payment_lapse"
+  ],
+  "areas": [
+   "A_first_debit_and_autopay"
+  ],
+  "quote": null,
+  "spans": {
+   "first_time_status": {
+    "v": "likely",
+    "s": "Mutual Funds for Beginners"
+   },
+   "in_app_confusion": [
+    {
+     "v": "sip_date_first_debit",
+     "s": "क्या Mutual Fund मे Miss हुई SIP को Pay कर सकते है?"
+    }
+   ],
+   "experience": [
+    {
+     "v": "payment_problem",
+     "s": "pay na hone se kt nhi payi"
+    }
+   ]
+  },
+  "work": null,
+  "age": null,
+  "amount": "unknown",
+  "first_time": true,
+  "targeted": true
+ },
+ {
+  "uid": "youtube:comment:UgwGte0Q-HYF2y_mXxl4AaABAg",
+  "source": "youtube",
+  "scope": "general",
+  "posted": "unknown",
+  "group": "none",
+  "action": "unknown",
+  "routes": [
+   "payment_lapse"
+  ],
+  "areas": [
+   "A_first_debit_and_autopay"
+  ],
+  "quote": "5th instalmnt missed ho gya bank account mein paisa nehi tha but 2din baad 2nd installment phirse deneka option aa gya",
+  "spans": {
+   "in_app_confusion": [
+    {
+     "v": "sip_date_first_debit",
+     "s": "mera groww app mein missed sip ko same month k oiye pay karne ka option dikha raha hai"
+    }
+   ],
+   "experience": [
+    {
+     "v": "payment_problem",
+     "s": "5th instalmnt missed ho gya bank account mein paisa nehi tha"
+    }
+   ]
+  },
+  "work": null,
+  "age": null,
+  "amount": "unknown",
+  "first_time": true,
+  "targeted": true
+ },
+ {
+  "uid": "reddit:comment:lbs2oc6",
+  "source": "reddit_comment",
+  "scope": "general",
+  "posted": "2024-07",
+  "group": "cont",
+  "action": "continued",
+  "routes": [
+   "not_stated"
+  ],
+  "areas": [],
+  "quote": "I will not withdraw and keep myself invested in a long run ..",
+  "spans": {
+   "action_primary": {
+    "v": "continued",
+    "s": "I will not withdraw and keep myself invested in a long run .."
+   },
+   "first_time_status": {
+    "v": "stated",
+    "s": "I started my First SIP (very very small ) ..Some questions..."
+   }
+  },
+  "work": null,
+  "age": null,
+  "amount": "unknown",
+  "first_time": true,
+  "targeted": true
+ },
+ {
+  "uid": "reddit:comment:nn76uuk",
+  "source": "reddit_comment",
+  "scope": "general",
+  "posted": "2025-11",
+  "group": "cont",
+  "action": "continued",
+  "routes": [
+   "not_stated"
+  ],
+  "areas": [],
+  "quote": "True! I just started like 5 months ago...",
+  "spans": {
+   "action_primary": {
+    "v": "continued",
+    "s": "investing in sips as savings for future"
+   },
+   "first_time_status": {
+    "v": "stated",
+    "s": "I just started like 5 months ago"
+   },
+   "start_reason": [
+    {
+     "v": "grow_wealth",
+     "s": "investing in sips as savings for future"
+    }
+   ]
+  },
+  "work": null,
+  "age": 22,
+  "amount": "unknown",
+  "first_time": true,
+  "targeted": true
+ },
+ {
+  "uid": "playstore:review:e7b0b38d-f47f-43f5-a3f8-b73b3f159240",
+  "source": "playstore",
+  "scope": "groww",
+  "posted": "2024-03",
+  "group": "stop",
+  "action": "stopped_or_cancelled",
+  "routes": [
+   "app_friction"
+  ],
+  "areas": [
+   "B_money_status_and_resolution"
+  ],
+  "quote": "Stills orders are failing since Jan 24. I am not able to withdraw my money while groww statement shows units are available.",
+  "spans": {
+   "action_primary": {
+    "v": "stopped_or_cancelled",
+    "s": "hence stopped all STPs"
+   },
+   "trigger_primary": {
+    "v": "app_issue_or_ux",
+    "s": "Within 2 months I faced multiple issues and hence stopped all STPs."
+   },
+   "experience": [
+    {
+     "v": "app_problem",
+     "s": "Very risky and unprofessional platform and non knowledgeable support staff."
+    }
+   ],
+   "unmet_need": {
+    "v": "Reliable order processing and clear support for withdrawals",
+    "s": "Support is asking me CAMS statement to update their platform."
+   }
+  },
+  "work": null,
+  "age": null,
+  "amount": "unknown",
+  "first_time": false,
+  "targeted": true
+ },
+ {
+  "uid": "playstore:review:kuvera:a935ff9b-baaf-4a49-9151-1cbcc9a96754",
+  "source": "playstore",
+  "scope": "other_app",
+  "posted": "2019-02",
+  "group": "none",
+  "action": "switched_platform",
+  "routes": [
+   "app_friction"
+  ],
+  "areas": [
+   "B_money_status_and_resolution"
+  ],
+  "quote": null,
+  "spans": {
+   "action_primary": {
+    "v": "switched_platform",
+    "s": "moment i have it on my profile i am gonna withdraw and switch back to paytm money"
+   },
+   "trigger_primary": {
+    "v": "app_issue_or_ux",
+    "s": "the investment record is nowhere in the app. 3 days and counting multiple mails exchanged with support but no use"
+   },
+   "first_time_status": {
+    "v": "stated",
+    "s": "first investment and all i could say is bizzare"
+   },
+   "in_app_confusion": [
+    {
+     "v": "order_status_units",
+     "s": "got units allocated over mail and additional KYC done but the investment record is nowhere in the app"
+    }
+   ],
+   "experience": [
+    {
+     "v": "app_problem",
+     "s": "the investment record is nowhere in the app. 3 days and counting multiple mails exchanged with support but no use"
+    }
+   ]
+  },
+  "work": null,
+  "age": null,
+  "amount": "unknown",
+  "first_time": true,
+  "targeted": true
+ },
+ {
+  "uid": "reddit:comment:naylpep",
+  "source": "reddit_comment",
+  "scope": "general",
+  "posted": "2025-08",
+  "group": "none",
+  "action": "unknown",
+  "routes": [
+   "not_stated"
+  ],
+  "areas": [
+   "A_first_debit_and_autopay"
+  ],
+  "quote": "It will skip the next 5 th most probably",
+  "spans": {
+   "first_time_status": {
+    "v": "stated",
+    "s": "First time investor, Query on setting up Zerodha SIP and confusion regarding initial investment?"
+   },
+   "in_app_confusion": [
+    {
+     "v": "sip_date_first_debit",
+     "s": "It will skip the next 5 th most probably"
+    }
+   ]
+  },
+  "work": null,
+  "age": null,
+  "amount": "unknown",
+  "first_time": true,
+  "targeted": true
+ },
+ {
+  "uid": "reddit:comment:gj0wh6k",
+  "source": "reddit_comment",
+  "scope": "general",
+  "posted": "2021-01",
+  "group": "none",
+  "action": "unknown",
+  "routes": [
+   "not_stated"
+  ],
+  "areas": [
+   "C_returns_expectations"
+  ],
+  "quote": "I don’t understand the technical stuff so I don’t know when I should withdraw the amount and when not",
+  "spans": {
+   "first_time_status": {
+    "v": "stated",
+    "s": "First time investor"
+   },
+   "unmet_need": {
+    "v": "Understand when to withdraw or not withdraw mutual fund investments and how to exit if needed",
+    "s": "I don’t know when I should withdraw the amount and when not so what if a situation arises that I need to remove so how can I go about it"
+   }
+  },
+  "work": null,
+  "age": null,
+  "amount": "unknown",
+  "first_time": true,
+  "targeted": true
+ }
+]

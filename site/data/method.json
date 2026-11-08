@@ -124,8 +124,8 @@
   }
  ],
  "ledger": {
-  "cumulative_spend_usd": 21.249556,
-  "production_spend_usd": 21.249373,
+  "cumulative_spend_usd": 21.335489,
+  "production_spend_usd": 21.335306,
   "test_spend_usd": 0.000183,
   "cap_usd": 30
  }

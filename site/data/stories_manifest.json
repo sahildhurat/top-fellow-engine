@@ -1,12 +1,13 @@
 {
   "total_stories": 8848,
-  "chunk_count": 5,
+  "chunk_count": 6,
   "chunk_files": [
     "stories-1.json",
     "stories-2.json",
     "stories-3.json",
     "stories-4.json",
-    "stories-5.json"
+    "stories-5.json",
+    "stories-6.json"
   ],
-  "total_size_bytes": 8273905
+  "total_size_bytes": 8331005
 }
